@@ -180,17 +180,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
---- !u!114 &372831284 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114567484643301796, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
-  m_PrefabInstance: {fileID: 1137607470}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2082544004}
-  - component: {fileID: 2082544003}
+  - component: {fileID: 2082544005}
   m_Layer: 0
   m_Name: Gesture Detection
   m_TagString: Untagged
@@ -536,21 +525,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2082544003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082544002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d17a4f561df183d4282ed3a00ff1d9ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skeleton: {fileID: 372831284}
-  gestures: []
-  debugMode: 1
 --- !u!4 &2082544004
 Transform:
   m_ObjectHideFlags: 0
@@ -566,3 +540,62 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2082544005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082544002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d17a4f561df183d4282ed3a00ff1d9ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: 0.1
+  skeleton: {fileID: 2099487786}
+  gestures:
+  - name: Force Lightning Gesture
+    fingerDatas:
+    - {x: 0.000000027705173, y: -0.000000008951812, z: -0.0000000036046608}
+    - {x: 0.000000027705173, y: -0.000000008951812, z: -0.0000000036046608}
+    - {x: 0.020068973, y: 0.011553988, z: 0.010497006}
+    - {x: 0.035958387, y: 0.0191577, z: 0.028028501}
+    - {x: 0.058505505, y: 0.02164576, z: 0.05132065}
+    - {x: 0.08694752, y: 0.024179982, z: 0.069392785}
+    - {x: 0.095996216, y: 0.0073164674, z: 0.023550652}
+    - {x: 0.1336282, y: 0.0032910823, z: 0.026021332}
+    - {x: 0.15789983, y: 0.0033696343, z: 0.027265899}
+    - {x: 0.095646545, y: 0.0025431672, z: 0.0017259048}
+    - {x: 0.13768037, y: -0.0052540144, z: -0.0021583214}
+    - {x: 0.16502243, y: -0.007338361, z: -0.004813141}
+    - {x: 0.08869375, y: 0.006529335, z: -0.017465254}
+    - {x: 0.12616819, y: -0.00041693382, z: -0.025718067}
+    - {x: 0.15212815, y: -0.0022532586, z: -0.031089682}
+    - {x: 0.03407352, y: 0.009419859, z: -0.022998583}
+    - {x: 0.07789579, y: 0.01369121, z: -0.035054065}
+    - {x: 0.10421725, y: 0.005658311, z: -0.048706774}
+    - {x: 0.12187802, y: 0.00415684, z: -0.05862607}
+    - {x: 0.105354875, y: 0.02669305, z: 0.08555017}
+    - {x: 0.18013263, y: 0.00076292886, z: 0.026856912}
+    - {x: 0.18902823, y: -0.013518407, z: -0.008000456}
+    - {x: 0.17598623, y: -0.005313526, z: -0.035069477}
+    - {x: 0.14160825, y: 0.000501764, z: -0.06754162}
+    onRecognized:
+      m_PersistentCalls:
+        m_Calls: []
+  debugMode: 1
+  notRecognize:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2099487786 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114567484643301796, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+  m_PrefabInstance: {fileID: 149811609}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -22,13 +22,13 @@ public class GestureDetector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fingerBones = new List<OVRBone>(skeleton.Bones);
-    }
+        StartCoroutine(GetFingerBones());
+        previousGesture = new Gesture();    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && debugMode) 
+        if (Input.GetKeyDown(KeyCode.A) && debugMode) 
         {
             Save();  
         }
@@ -48,4 +48,13 @@ public class GestureDetector : MonoBehaviour
         g.fingerDatas = data;
         gestures.Add(g);
     }
+
+    IEnumerator GetFingerBones()
+{
+    do
+    {
+        fingerBones = new List<OVRBone>(skeleton.Bones);
+        yield return null;
+    } while (fingerBones.Count <= 0);
+}
 }

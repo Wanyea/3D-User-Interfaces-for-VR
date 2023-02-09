@@ -343,6 +343,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+--- !u!1 &1772684758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1772684760}
+  - component: {fileID: 1772684761}
+  m_Layer: 0
+  m_Name: Force Lightning Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1772684760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772684758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1772684761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772684758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0062a2a269204a6469957575c35924d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 2099487787}
+  forceLightningPrefab: {fileID: 2089086870837883803, guid: 2c70d102a6157a24eb920365e5f604de, type: 3}
+  whatCanCollide:
+    serializedVersion: 2
+    m_Bits: 0
+  forceLightningCooldown: 5
 --- !u!1001 &1893917613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -552,42 +602,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d17a4f561df183d4282ed3a00ff1d9ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threshold: 0.1
+  threshold: 0.05
   skeleton: {fileID: 2099487786}
   gestures:
   - name: Force Lightning Gesture
     fingerDatas:
-    - {x: 0.000000027705173, y: -0.000000008951812, z: -0.0000000036046608}
-    - {x: 0.000000027705173, y: -0.000000008951812, z: -0.0000000036046608}
-    - {x: 0.020068973, y: 0.011553988, z: 0.010497006}
-    - {x: 0.035958387, y: 0.0191577, z: 0.028028501}
-    - {x: 0.058505505, y: 0.02164576, z: 0.05132065}
-    - {x: 0.08694752, y: 0.024179982, z: 0.069392785}
-    - {x: 0.095996216, y: 0.0073164674, z: 0.023550652}
-    - {x: 0.1336282, y: 0.0032910823, z: 0.026021332}
-    - {x: 0.15789983, y: 0.0033696343, z: 0.027265899}
-    - {x: 0.095646545, y: 0.0025431672, z: 0.0017259048}
-    - {x: 0.13768037, y: -0.0052540144, z: -0.0021583214}
-    - {x: 0.16502243, y: -0.007338361, z: -0.004813141}
-    - {x: 0.08869375, y: 0.006529335, z: -0.017465254}
-    - {x: 0.12616819, y: -0.00041693382, z: -0.025718067}
-    - {x: 0.15212815, y: -0.0022532586, z: -0.031089682}
-    - {x: 0.03407352, y: 0.009419859, z: -0.022998583}
-    - {x: 0.07789579, y: 0.01369121, z: -0.035054065}
-    - {x: 0.10421725, y: 0.005658311, z: -0.048706774}
-    - {x: 0.12187802, y: 0.00415684, z: -0.05862607}
-    - {x: 0.105354875, y: 0.02669305, z: 0.08555017}
-    - {x: 0.18013263, y: 0.00076292886, z: 0.026856912}
-    - {x: 0.18902823, y: -0.013518407, z: -0.008000456}
-    - {x: 0.17598623, y: -0.005313526, z: -0.035069477}
-    - {x: 0.14160825, y: 0.000501764, z: -0.06754162}
+    - {x: -0.000000020249264, y: 0.0000000060537215, z: 0.0000000024637867}
+    - {x: -0.000000020249264, y: 0.0000000060537215, z: 0.0000000024637867}
+    - {x: 0.020069005, y: 0.011554008, z: 0.010496998}
+    - {x: 0.035958417, y: 0.01915772, z: 0.028028509}
+    - {x: 0.059718646, y: 0.024913909, z: 0.049462244}
+    - {x: 0.08868951, y: 0.029630397, z: 0.06620791}
+    - {x: 0.09599622, y: 0.0073164385, z: 0.023550682}
+    - {x: 0.13383192, y: 0.006259514, z: 0.025963107}
+    - {x: 0.15793759, y: 0.009120389, z: 0.02714535}
+    - {x: 0.09564663, y: 0.0025431244, z: 0.001725917}
+    - {x: 0.1378172, y: -0.0038456316, z: -0.003126473}
+    - {x: 0.16516626, y: -0.0044694724, z: -0.0063852454}
+    - {x: 0.0886938, y: 0.0065292967, z: -0.017465243}
+    - {x: 0.12601046, y: -0.00034361024, z: -0.026460791}
+    - {x: 0.15195772, y: -0.0009397186, z: -0.032164194}
+    - {x: 0.03407353, y: 0.009419837, z: -0.022998575}
+    - {x: 0.077895805, y: 0.013691172, z: -0.035054058}
+    - {x: 0.10490776, y: 0.007808363, z: -0.048451506}
+    - {x: 0.12298217, y: 0.009603256, z: -0.057542395}
+    - {x: 0.10789781, y: 0.034284905, z: 0.08089073}
+    - {x: 0.18032031, y: 0.009413088, z: 0.02671243}
+    - {x: 0.18941696, y: -0.009228097, z: -0.01011288}
+    - {x: 0.17591293, y: -0.002535138, z: -0.036408655}
+    - {x: 0.1434268, y: 0.009999012, z: -0.06554149}
     onRecognized:
       m_PersistentCalls:
-        m_Calls: []
-  debugMode: 1
+        m_Calls:
+        - m_Target: {fileID: 1772684761}
+          m_TargetAssemblyTypeName: ForceLightningManager, Assembly-CSharp
+          m_MethodName: StartForceLightning
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  debugMode: 0
   notRecognize:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1772684761}
+        m_TargetAssemblyTypeName: ForceLightningManager, Assembly-CSharp
+        m_MethodName: StopForceLightning
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2099487786 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114567484643301796, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
@@ -599,3 +673,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &2099487787 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4453513310108136, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+  m_PrefabInstance: {fileID: 149811609}
+  m_PrefabAsset: {fileID: 0}

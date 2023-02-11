@@ -113,13 +113,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
-  speed: 5
+  speed: 20
   fireRate: 1
   timeBeforeDestroyed: 5
   impactParticle: {fileID: 0}
   muzzleParticle: {fileID: 0}
   colliderRadius: 1
-  collideOffset: 0.197
+  collideOffset: 0.15
 --- !u!54 &-1199267968900753337
 Rigidbody:
   m_ObjectHideFlags: 0

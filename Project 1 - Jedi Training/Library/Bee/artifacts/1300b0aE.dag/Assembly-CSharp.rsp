@@ -525,6 +525,8 @@
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
 "Assets/Scripts/ForceLightningBehavior.cs"
 "Assets/Scripts/ForceLightningManager.cs"
+"Assets/Scripts/ForceWaveBehavior.cs"
+"Assets/Scripts/ForceWaveManager.cs"
 "Assets/Scripts/GestureDetector.cs"
 "Assets/Scripts/RaycastDebugger.cs"
 -langversion:9.0

@@ -199,7 +199,6 @@ GameObject:
   - component: {fileID: 4182089258527930361}
   - component: {fileID: 7556662076081386062}
   - component: {fileID: 4473890621891862931}
-  - component: {fileID: 6464309964795627499}
   - component: {fileID: 8038113509761174388}
   m_Layer: 0
   m_Name: SphereInteractable
@@ -539,21 +538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26cb0a0cb13965347b765a3a9356dd69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6464309964795627499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379690413652683889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bedaac29a943f844a7074b53c8bdf9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _grabbable: {fileID: 3906427551245571541}
-  _rigidbody: {fileID: 6101679343991329317}
-  _scaleMassWithSize: 1
 --- !u!114 &8038113509761174388
 MonoBehaviour:
   m_ObjectHideFlags: 0

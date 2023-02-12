@@ -119,6 +119,9 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -523,12 +526,27 @@
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiSceneMenu.cs"
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
+"Assets/Prefabs/Lightsabers/LaserSword/Demo/RotateObjectsScript.cs"
+"Assets/Prefabs/Lightsabers/LaserSword/Script/LaserSwordBladeCreatorScript.cs"
+"Assets/Prefabs/Lightsabers/LaserSword/Script/LaserSwordProfileScript.cs"
+"Assets/Prefabs/Lightsabers/LaserSword/Script/LaserSwordScript.cs"
 "Assets/Scripts/ForceLightningBehavior.cs"
 "Assets/Scripts/ForceLightningManager.cs"
 "Assets/Scripts/ForceWaveBehavior.cs"
 "Assets/Scripts/ForceWaveManager.cs"
 "Assets/Scripts/GestureDetector.cs"
 "Assets/Scripts/RaycastDebugger.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabModelWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/Resizer.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabApi.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabExporter.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabImporter.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabImporterWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabLogger.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabUI.cs"
 -langversion:9.0
 
 /deterministic

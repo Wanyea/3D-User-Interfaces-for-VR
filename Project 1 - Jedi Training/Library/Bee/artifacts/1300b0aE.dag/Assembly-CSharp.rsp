@@ -394,6 +394,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Dictation.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.ref.dll"
+"Assets/Lightning/Scripts/VFXController.cs"
+"Assets/LightningBolt/LightningBoltScript.cs"
 "Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs"
 "Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/HandPose.cs"
 "Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs"
@@ -530,6 +532,9 @@
 "Assets/Prefabs/Lightsabers/LaserSword/Script/LaserSwordBladeCreatorScript.cs"
 "Assets/Prefabs/Lightsabers/LaserSword/Script/LaserSwordProfileScript.cs"
 "Assets/Prefabs/Lightsabers/LaserSword/Script/LaserSwordScript.cs"
+"Assets/Scripts/BlockAttacks.cs"
+"Assets/Scripts/EnemyAttack.cs"
+"Assets/Scripts/EnemyManagerScript.cs"
 "Assets/Scripts/ForceLightningBehavior.cs"
 "Assets/Scripts/ForceLightningManager.cs"
 "Assets/Scripts/ForceWaveBehavior.cs"
@@ -547,6 +552,8 @@
 "Assets/Sketchfab For Unity/Scripts/SketchfabLogger.cs"
 "Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs"
 "Assets/Sketchfab For Unity/Scripts/SketchfabUI.cs"
+"Assets/Weapons/Scripts/SpinPivot.cs"
+"Assets/Weapons/Scripts/Weapon.cs"
 -langversion:9.0
 
 /deterministic

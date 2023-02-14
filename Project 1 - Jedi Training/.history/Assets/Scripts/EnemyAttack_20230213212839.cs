@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyAttack : MonoBehaviour
+{
+    public Transform player;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void movePracticeDroid() 
+    {
+        
+            Debug.Log("Practice Droid not defeated yet");
+
+            float time = Mathf.PingPong(Time.time * speed, 1);
+
+            // Set our position as a fraction of the distance between the markers.
+            transform.position = Vector3.Lerp(start.position, end.position, time);
+    
+    }
+}

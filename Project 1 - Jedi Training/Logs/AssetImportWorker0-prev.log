@@ -15,7 +15,7 @@ C:/Users/wanye/source/3D-User-Interfaces-for-VR/Project 1 - Jedi Training
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65009
+60843
 Successfully changed project path to: C:/Users/wanye/source/3D-User-Interfaces-for-VR/Project 1 - Jedi Training
 C:/Users/wanye/source/3D-User-Interfaces-for-VR/Project 1 - Jedi Training
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/wanye/source/3D-User-Interfaces-for-VR/Project 1 - Jedi Training
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15140] Host "[IP] 10.127.16.58 [Port] 0 [Flags] 2 [Guid] 3420338865 [EditorId] 3420338865 [Version] 1048832 [Id] WindowsEditor(7,Wanyea-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [32208] Host "[IP] 10.127.16.58 [Port] 0 [Flags] 2 [Guid] 389419384 [EditorId] 389419384 [Version] 1048832 [Id] WindowsEditor(7,Wanyea-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15140] Host "[IP] 10.127.16.58 [Port] 0 [Flags] 2 [Guid] 3420338865 [EditorId] 3420338865 [Version] 1048832 [Id] WindowsEditor(7,Wanyea-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32208] Host "[IP] 10.127.16.58 [Port] 0 [Flags] 2 [Guid] 389419384 [EditorId] 389419384 [Version] 1048832 [Id] WindowsEditor(7,Wanyea-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 134.38 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.47 ms.
+Refreshing native plugins compatible for Editor in 143.66 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/wanye/source/3D-User-Interfaces-for-VR/Project 1 - Jedi Training/Assets
@@ -68,55 +68,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005285 seconds.
+Registered in 0.005139 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 305 ms
-Refreshing native plugins compatible for Editor in 124.74 ms, found 8 plugins.
+Android Extension - Scanning For ADB Devices 256 ms
+Refreshing native plugins compatible for Editor in 126.76 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
+- Completed reload, in  0.948 seconds
 Domain Reload Profiling:
-	ReloadAssembly (952ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (948ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (786ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (770ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (620ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (584ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (381ms)
+				InitializePlatformSupportModulesInManaged (334ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
+				RefreshPlugins (127ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006208 seconds.
+Registered in 0.007279 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -124,44 +124,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.79.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.365 seconds
+- Completed reload, in  1.080 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1366ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1170ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (692ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (361ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
 				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (341ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.59 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4520 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (144.9 KB). Loaded Objects now: 4971.
-Memory consumption went from 169.2 MB to 169.1 MB.
-Total: 3.367800 ms (FindLiveObjects: 0.466100 ms CreateObjectMapping: 0.128400 ms MarkObjects: 2.613500 ms  DeleteObjects: 0.158700 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4522 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (145.1 KB). Loaded Objects now: 4973.
+Memory consumption went from 169.3 MB to 169.1 MB.
+Total: 3.188800 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.126300 ms MarkObjects: 2.489500 ms  DeleteObjects: 0.149100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,813 +175,343 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 515018.981152 seconds.
-  path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
-  artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3051d0b485a60d47cba1921dc01891e') in 0.261926 seconds 
+  Time since last request: 521110.363599 seconds.
+  path: Assets/Sci_fi_Drones/Prefabs/Robot_Invader.prefab
+  artifactKey: Guid(baf16853953e0cf43b0bde889520a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Invader.prefab using Guid(baf16853953e0cf43b0bde889520a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976f0f27894484ec519a2906510d3873') in 0.265684 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.906191 seconds.
+  Time since last request: 22.465932 seconds.
+  path: Assets/Sci_fi_Drones/Prefabs/Robot_Invader.prefab
+  artifactKey: Guid(baf16853953e0cf43b0bde889520a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Invader.prefab using Guid(baf16853953e0cf43b0bde889520a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2905eb34f04492fb63a2695537613d90') in 0.155019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.705256 seconds.
+  path: Assets/Prefabs/Player (1).prefab
+  artifactKey: Guid(62d85be1033d3d649bf0574d89a65d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player (1).prefab using Guid(62d85be1033d3d649bf0574d89a65d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a084ab7fef345a39f69c3b840bff8454') in 0.009150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(de2a88f17608dad4c82b8b707cdd07f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(de2a88f17608dad4c82b8b707cdd07f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1b3ae30831a2e13fb53df406c1241b') in 0.004504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Player (4).prefab
+  artifactKey: Guid(01017bd5288e6ea48bef0eae57648ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player (4).prefab using Guid(01017bd5288e6ea48bef0eae57648ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01993e5b141ed7232ea535f311af04c') in 0.008977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/Player (3).prefab
+  artifactKey: Guid(c78a2392cd95220438f41f06cb09ce3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player (3).prefab using Guid(c78a2392cd95220438f41f06cb09ce3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75d93f31c62a24267e179eb15e19031') in 0.009136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.509811 seconds.
   path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
   artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b33bfc0fabc3efd5778cc9b8c7d268') in 0.147067 seconds 
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777c4dfba865b6996a0a629c944e3b60') in 0.218746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci_fi_Drones/Prefabs/Robot_Scout_HyperX_Red.prefab
+  artifactKey: Guid(abbd383e1de4abf4e8f71d6191cd45f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Scout_HyperX_Red.prefab using Guid(abbd383e1de4abf4e8f71d6191cd45f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80039d2dbb1217752ccc5942afe03d8e') in 1.425434 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006061 seconds.
+Registered in 0.006193 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (112.9 KB). Loaded Objects now: 4987.
+Memory consumption went from 163.2 MB to 163.1 MB.
+Total: 3.120400 ms (FindLiveObjects: 0.410200 ms CreateObjectMapping: 0.115100 ms MarkObjects: 2.457200 ms  DeleteObjects: 0.136500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006724 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 1.51 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1123ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (869ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (355ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.64 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 4984.
-Memory consumption went from 163.1 MB to 163.0 MB.
-Total: 3.351600 ms (FindLiveObjects: 0.448300 ms CreateObjectMapping: 0.119100 ms MarkObjects: 2.598700 ms  DeleteObjects: 0.184200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 96.929135 seconds.
-  path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
-  artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79697cb842ac0826b873e9f194a82df') in 0.266351 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008547 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1148ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (371ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (290ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.22 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.2 KB). Loaded Objects now: 4988.
-Memory consumption went from 163.1 MB to 163.0 MB.
-Total: 3.140400 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.142200 ms MarkObjects: 2.443100 ms  DeleteObjects: 0.123700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 477.956927 seconds.
-  path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
-  artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c7389165ef7f0f6fcfb45827a36496') in 0.264059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 373.563995 seconds.
-  path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
-  artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bb8741e5e0402ce8aa31ffd4c054e3') in 0.173799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.948639 seconds.
-  path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
-  artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040a60ffe9e551600dd6a7e82b1bb14d') in 0.139111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.253692 seconds.
-  path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
-  artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314d3c6d2e1ff6436fc97be11561804d') in 0.125092 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007009 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
+- Completed reload, in  0.998 seconds
 Domain Reload Profiling:
-	ReloadAssembly (892ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (689ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (271ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.39 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.5 KB). Loaded Objects now: 4992.
-Memory consumption went from 163.1 MB to 163.0 MB.
-Total: 3.422800 ms (FindLiveObjects: 0.534400 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.592800 ms  DeleteObjects: 0.176500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 133.667438 seconds.
-  path: Assets/Prefabs/Force Lightning  1.prefab
-  artifactKey: Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Force Lightning  1.prefab using Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b37ed0f0ed9cf1ff077e6f2b83e090') in 0.077063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.924187 seconds.
-  path: Assets/Prefabs/Enemy Bullet.prefab
-  artifactKey: Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Bullet.prefab using Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1220675bf08e8299724c64d0a57216d') in 0.016347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.342076 seconds.
-  path: Assets/Sci_fi_Drones/Models/Robot_Scout_HyperX_Unity.fbx
-  artifactKey: Guid(7ef5a93e089a2b841891487c5d6e5d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Models/Robot_Scout_HyperX_Unity.fbx using Guid(7ef5a93e089a2b841891487c5d6e5d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c1e178593202855429296b64888f12') in 0.088523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Regular.ttf
-  artifactKey: Guid(3a7f6f0ee62dc1a419509d2442cb0542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sketchfab For Unity/Dependencies/Resources/OpenSans-Regular.ttf using Guid(3a7f6f0ee62dc1a419509d2442cb0542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34adab3b62b197128550db7d67efafa') in 3.535875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Thin.ttf
-  artifactKey: Guid(069ae99b1d0b42946bd85dcc90f28d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Thin.ttf using Guid(069ae99b1d0b42946bd85dcc90f28d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f79b3cf759581354f48545b81d3d98f') in 1.866980 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.012214 seconds.
-  path: Assets/Prefabs/Enemy Bullet.prefab
-  artifactKey: Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Bullet.prefab using Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9041b5c0e9f3d4b087db9756c0db39') in 1.519746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Prefabs/Enemy Bullet.prefab
-  artifactKey: Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Bullet.prefab using Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bab3fa1ed8b50f1584410def0204e21') in 1.416609 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006842 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.154 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1155ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (939ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (355ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.66 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.3 KB). Loaded Objects now: 5037.
-Memory consumption went from 163.6 MB to 163.5 MB.
-Total: 3.207800 ms (FindLiveObjects: 0.433300 ms CreateObjectMapping: 0.131500 ms MarkObjects: 2.488600 ms  DeleteObjects: 0.153200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005844 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.993 seconds
-Domain Reload Profiling:
-	ReloadAssembly (994ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (773ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.58 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 5041.
-Memory consumption went from 163.5 MB to 163.3 MB.
-Total: 3.607400 ms (FindLiveObjects: 0.462300 ms CreateObjectMapping: 0.130500 ms MarkObjects: 2.830500 ms  DeleteObjects: 0.182800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 363.758172 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_10.fbx
-  artifactKey: Guid(4a42e5011990d97479599bd0c3f4f7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_10.fbx using Guid(4a42e5011990d97479599bd0c3f4f7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700a84b623cc1d999a2ecc88f570a75a') in 0.364461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.167587 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/BigRedButton.prefab
-  artifactKey: Guid(d2d6934a666a18d46b8b7a3864dc9f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/BigRedButton.prefab using Guid(d2d6934a666a18d46b8b7a3864dc9f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd3d470c0f87c963a55981397e55f20') in 0.558447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DebugUI/Prefabs/CanvasWithDebug.prefab
-  artifactKey: Guid(ddb963bcde7d8a04a88b3ee4709f46c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Prefabs/CanvasWithDebug.prefab using Guid(ddb963bcde7d8a04a88b3ee4709f46c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407ed521cfa3707020cb4313ceb6968c') in 1.033491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Oculus/Voice/Features/Dictation/Prefabs/DictationService.prefab
-  artifactKey: Guid(ba31729cfe8be2642a8bcac537765e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Voice/Features/Dictation/Prefabs/DictationService.prefab using Guid(ba31729cfe8be2642a8bcac537765e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ab6d21dd07fc4cf96e81c1dca01eb3') in 0.035571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit/_Prefabs/_Legos/Corridor_01.prefab
-  artifactKey: Guid(78196c2946aba40bcb735ee1782fd7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit/_Prefabs/_Legos/Corridor_01.prefab using Guid(78196c2946aba40bcb735ee1782fd7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b5672549eedebbd48283848334addd') in 0.721160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DebugUI/Prefabs/DebugDivider.prefab
-  artifactKey: Guid(61d9c2baaf4c42944ae89394cdca96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Prefabs/DebugDivider.prefab using Guid(61d9c2baaf4c42944ae89394cdca96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb131f83cfabc64bece15c82c2ca9c5') in 0.797221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Oculus/Interaction/Samples/Prefabs/DeprecatedSceneInfo.prefab
-  artifactKey: Guid(20a1e5fad20085a48bd7b8e7fb549b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Prefabs/DeprecatedSceneInfo.prefab using Guid(20a1e5fad20085a48bd7b8e7fb549b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe550b16891930216f60bc0b7feda7af') in 0.032323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.084180 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DebugUI/Prefabs/DebugToggle.prefab
-  artifactKey: Guid(8ff769690226dec4ea7ad1cea633b2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Prefabs/DebugToggle.prefab using Guid(8ff769690226dec4ea7ad1cea633b2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1776cc9afdfd593315897a89c6445a7f') in 0.008778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Oculus/VR/Meshes/Cone.obj
-  artifactKey: Guid(c28fa8d61f81fb742b1180a6d4516625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Meshes/Cone.obj using Guid(c28fa8d61f81fb742b1180a6d4516625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c600d2e668408671350d4f1141328811') in 0.027095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/AppDeeplink/UI/DebugTextField.prefab
-  artifactKey: Guid(ad318b8a60c4f774cbbf0d9e4d4fcca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/AppDeeplink/UI/DebugTextField.prefab using Guid(ad318b8a60c4f774cbbf0d9e4d4fcca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6765b50e2571ee1b42b1eb548419beea') in 1.264653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Tooltips/Dialog.prefab
-  artifactKey: Guid(bf018bf093319f840a7314cb25167d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Tooltips/Dialog.prefab using Guid(bf018bf093319f840a7314cb25167d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3a32ee70c1c9ae85f138f065b7cf28') in 0.018330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Prefabs/BouncingBall.prefab
-  artifactKey: Guid(3abe693e061ff3d4781d623a0c9856c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Prefabs/BouncingBall.prefab using Guid(3abe693e061ff3d4781d623a0c9856c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a002fa6772010b39ad5d031b55af969') in 5.053408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Screen/DebugScreen.prefab
-  artifactKey: Guid(cdeb96b7cc1bb0b4e8ed9fcb16be7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Screen/DebugScreen.prefab using Guid(cdeb96b7cc1bb0b4e8ed9fcb16be7b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a889b133861caa63c971f29b9d75047') in 1.061951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit/_Meshes/Column_01.FBX
-  artifactKey: Guid(620813c3d11d1412a874c60c0aed7aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit/_Meshes/Column_01.FBX using Guid(620813c3d11d1412a874c60c0aed7aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf8cf34eb428a7647a0f156bd012d65') in 2.358026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Prefabs/DemoAnchorPrefab.prefab
-  artifactKey: Guid(cbd6efbdc5102a044bf11631bfccb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Prefabs/DemoAnchorPrefab.prefab using Guid(cbd6efbdc5102a044bf11631bfccb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66eba9ef554ebcdb46a7fa185c2eb7f2') in 2.848740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.281080 seconds.
-  path: Assets/Prefabs/End Marker.prefab
-  artifactKey: Guid(589b40a0e7d9dd743b1495c6e851b8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/End Marker.prefab using Guid(589b40a0e7d9dd743b1495c6e851b8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df56cfaebbc5845c0a4b4f9c6e04e5f9') in 0.026968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Practice Droid Spawn.prefab
-  artifactKey: Guid(ea8f2ef7e4824164284449f52dffc1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Practice Droid Spawn.prefab using Guid(ea8f2ef7e4824164284449f52dffc1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449ede4f0655ba32e3e178b1d3f0281b') in 0.015631 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007011 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
-Domain Reload Profiling:
-	ReloadAssembly (990ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (770ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.68 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (115.7 KB). Loaded Objects now: 5056.
-Memory consumption went from 164.4 MB to 164.3 MB.
-Total: 3.935000 ms (FindLiveObjects: 0.463900 ms CreateObjectMapping: 0.127200 ms MarkObjects: 3.095600 ms  DeleteObjects: 0.246700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009311 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1053ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (847ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (307ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.71 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.2 KB). Loaded Objects now: 5060.
-Memory consumption went from 164.4 MB to 164.3 MB.
-Total: 3.556000 ms (FindLiveObjects: 0.532000 ms CreateObjectMapping: 0.135700 ms MarkObjects: 2.737000 ms  DeleteObjects: 0.150000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006778 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1020ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (784ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (328ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.58 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.3 KB). Loaded Objects now: 5064.
-Memory consumption went from 164.4 MB to 164.3 MB.
-Total: 3.311200 ms (FindLiveObjects: 0.497400 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.541700 ms  DeleteObjects: 0.149200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 295.468785 seconds.
-  path: Assets/Sci_fi_Drones/Models/Robot_Guardian.fbx
-  artifactKey: Guid(18c800137884f7e41a1c548b743d113b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Models/Robot_Guardian.fbx using Guid(18c800137884f7e41a1c548b743d113b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a6609d86162577181faf41e5ae86e7') in 0.315867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sci_fi_Drones/Models/Robot_Scout.fbx
-  artifactKey: Guid(c253b4e8b24a3e441b8388fa411c9b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Models/Robot_Scout.fbx using Guid(c253b4e8b24a3e441b8388fa411c9b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74eaa9f7d9b40b6bb275400d5925da30') in 0.222582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sci_fi_Drones/Models/Robot_Scout_Rockie_Unity.fbx
-  artifactKey: Guid(4c42ee333f3482841b5ce9f0964d4f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Models/Robot_Scout_Rockie_Unity.fbx using Guid(4c42ee333f3482841b5ce9f0964d4f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cda40e8f1567b7ec3aa1562e47eaae8') in 0.037816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 85.006455 seconds.
-  path: Assets/Prefabs/Enemy Bullet.prefab
-  artifactKey: Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Bullet.prefab using Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6dd197921a8feaa113068f4b137803') in 0.010541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.141013 seconds.
-  path: Assets/Prefabs/Force Lightning .prefab
-  artifactKey: Guid(2c70d102a6157a24eb920365e5f604de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Force Lightning .prefab using Guid(2c70d102a6157a24eb920365e5f604de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d009ef36066c914d3e22d0014902f0') in 0.049977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.583211 seconds.
-  path: Assets/Prefabs/Force Lightning .prefab
-  artifactKey: Guid(2c70d102a6157a24eb920365e5f604de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Force Lightning .prefab using Guid(2c70d102a6157a24eb920365e5f604de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b305263100e9a4bef9788c076c480181') in 0.014572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 85.909305 seconds.
-  path: Assets/Prefabs/Force Lightning .prefab
-  artifactKey: Guid(2c70d102a6157a24eb920365e5f604de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Force Lightning .prefab using Guid(2c70d102a6157a24eb920365e5f604de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65d27710039cb781089b456a49e9a31') in 0.012480 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005980 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
-Domain Reload Profiling:
-	ReloadAssembly (940ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (741ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.61 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 5068.
-Memory consumption went from 164.4 MB to 164.3 MB.
-Total: 3.282400 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.116200 ms MarkObjects: 2.577800 ms  DeleteObjects: 0.141200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.617574 seconds.
-  path: Assets/Prefabs/Enemy Bullet.prefab
-  artifactKey: Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Bullet.prefab using Guid(81b45d40f584b804795061afde7e1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3bff392ea3841a3c12fa47d437acc1') in 0.063462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Force Lightning .prefab
-  artifactKey: Guid(2c70d102a6157a24eb920365e5f604de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Force Lightning .prefab using Guid(2c70d102a6157a24eb920365e5f604de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f7d13cac824da8b5d1bebf976c2f5f') in 0.012712 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006192 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
-Domain Reload Profiling:
-	ReloadAssembly (966ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (742ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (269ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (300ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.23 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 5.97 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 5072.
-Memory consumption went from 164.2 MB to 164.1 MB.
-Total: 3.537300 ms (FindLiveObjects: 0.440100 ms CreateObjectMapping: 0.119800 ms MarkObjects: 2.812900 ms  DeleteObjects: 0.163400 ms)
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 4991.
+Memory consumption went from 163.2 MB to 163.1 MB.
+Total: 3.511200 ms (FindLiveObjects: 0.552000 ms CreateObjectMapping: 0.147600 ms MarkObjects: 2.665400 ms  DeleteObjects: 0.145200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006663 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1064ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.83 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (112.2 KB). Loaded Objects now: 4995.
+Memory consumption went from 163.2 MB to 163.1 MB.
+Total: 3.608600 ms (FindLiveObjects: 0.482400 ms CreateObjectMapping: 0.125000 ms MarkObjects: 2.835300 ms  DeleteObjects: 0.164400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005838 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.99 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 4999.
+Memory consumption went from 163.2 MB to 163.1 MB.
+Total: 3.415900 ms (FindLiveObjects: 0.550600 ms CreateObjectMapping: 0.149800 ms MarkObjects: 2.554500 ms  DeleteObjects: 0.159900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 509.872474 seconds.
+  path: Assets/Sci_fi_Drones/Prefabs/Robot_Scout_HyperX_Red.prefab
+  artifactKey: Guid(abbd383e1de4abf4e8f71d6191cd45f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Scout_HyperX_Red.prefab using Guid(abbd383e1de4abf4e8f71d6191cd45f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17def3f9362099651fe4fa4dec56d1dd') in 1.260387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
+  artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8729c743aecb3081da0240fd8f14571d') in 0.295283 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008363 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.71 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (113.2 KB). Loaded Objects now: 5003.
+Memory consumption went from 163.0 MB to 162.9 MB.
+Total: 3.422400 ms (FindLiveObjects: 0.476800 ms CreateObjectMapping: 0.118600 ms MarkObjects: 2.618000 ms  DeleteObjects: 0.207200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1002,31 +532,31 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-I
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 1.46 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  1.016 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1064ms)
+	ReloadAssembly (1016ms)
 		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (848ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (183ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (192ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -1034,12 +564,12 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.83 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 5076.
-Memory consumption went from 164.4 MB to 164.3 MB.
-Total: 3.101200 ms (FindLiveObjects: 0.418400 ms CreateObjectMapping: 0.117200 ms MarkObjects: 2.426600 ms  DeleteObjects: 0.137700 ms)
+Refreshing native plugins compatible for Editor in 7.17 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (112.5 KB). Loaded Objects now: 5007.
+Memory consumption went from 163.2 MB to 163.1 MB.
+Total: 3.347100 ms (FindLiveObjects: 0.444000 ms CreateObjectMapping: 0.135900 ms MarkObjects: 2.597800 ms  DeleteObjects: 0.167700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1054,50 +584,126 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008942 seconds.
+Registered in 0.006229 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.893 seconds
+- Completed reload, in  1.002 seconds
 Domain Reload Profiling:
-	ReloadAssembly (894ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (246ms)
+			SetupTypeCache (264ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (269ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.85 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 6.72 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 5011.
+Memory consumption went from 163.3 MB to 163.1 MB.
+Total: 4.097700 ms (FindLiveObjects: 0.555300 ms CreateObjectMapping: 0.113800 ms MarkObjects: 3.157500 ms  DeleteObjects: 0.269800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.938610 seconds.
+  path: Assets/Sci_fi_Drones/Prefabs/Robot_Scout.prefab
+  artifactKey: Guid(614ae078bc54b724ba88e5ad5fcf173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Scout.prefab using Guid(614ae078bc54b724ba88e5ad5fcf173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cea46f00c03fc844d503d76367fafd') in 0.305156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001865 seconds.
+  path: Assets/Sci_fi_Drones/Prefabs/Robot_Invader.prefab
+  artifactKey: Guid(baf16853953e0cf43b0bde889520a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Invader.prefab using Guid(baf16853953e0cf43b0bde889520a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350218cff04d2f3d43e4f02fd6f61d5e') in 0.313016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab
+  artifactKey: Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci_fi_Drones/Prefabs/Robot_Guardian.prefab using Guid(d0e2b6bf944e12c439220558bf7de75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028d8d7f819c38a9f451ce9afe1e0ff1') in 0.395213 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007326 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 5.74 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (104.6 KB). Loaded Objects now: 5080.
-Memory consumption went from 164.5 MB to 164.4 MB.
-Total: 3.887500 ms (FindLiveObjects: 0.522500 ms CreateObjectMapping: 0.160300 ms MarkObjects: 3.056400 ms  DeleteObjects: 0.146700 ms)
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (105.3 KB). Loaded Objects now: 5015.
+Memory consumption went from 163.3 MB to 163.2 MB.
+Total: 3.656400 ms (FindLiveObjects: 0.496800 ms CreateObjectMapping: 0.121900 ms MarkObjects: 2.855100 ms  DeleteObjects: 0.181000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1112,50 +718,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007875 seconds.
+Registered in 0.006399 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  1.015 seconds
 Domain Reload Profiling:
-	ReloadAssembly (975ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1015ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (772ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
+			SetupTypeCache (268ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (322ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.13 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 6.84 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.3 KB). Loaded Objects now: 5084.
-Memory consumption went from 164.5 MB to 164.4 MB.
-Total: 3.281200 ms (FindLiveObjects: 0.493000 ms CreateObjectMapping: 0.123400 ms MarkObjects: 2.496600 ms  DeleteObjects: 0.166800 ms)
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 5019.
+Memory consumption went from 163.3 MB to 163.2 MB.
+Total: 4.236000 ms (FindLiveObjects: 0.534900 ms CreateObjectMapping: 0.259900 ms MarkObjects: 3.279600 ms  DeleteObjects: 0.160500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1170,108 +776,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005961 seconds.
+Registered in 0.006018 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.942 seconds
+- Completed reload, in  1.003 seconds
 Domain Reload Profiling:
-	ReloadAssembly (943ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (741ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (786ms)
 			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (286ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.62 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 5088.
-Memory consumption went from 164.5 MB to 164.4 MB.
-Total: 3.233400 ms (FindLiveObjects: 0.458600 ms CreateObjectMapping: 0.118100 ms MarkObjects: 2.503700 ms  DeleteObjects: 0.151500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008128 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.641 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1641ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1424ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (997ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (384ms)
-				ProcessInitializeOnLoadMethodAttributes (512ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.78 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (112.4 KB). Loaded Objects now: 5092.
-Memory consumption went from 164.3 MB to 164.2 MB.
-Total: 3.357100 ms (FindLiveObjects: 0.463600 ms CreateObjectMapping: 0.136300 ms MarkObjects: 2.599200 ms  DeleteObjects: 0.156600 ms)
+Refreshing native plugins compatible for Editor in 6.57 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (112.5 KB). Loaded Objects now: 5023.
+Memory consumption went from 163.1 MB to 163.0 MB.
+Total: 3.408600 ms (FindLiveObjects: 0.527700 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.596200 ms  DeleteObjects: 0.154400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1284,145 +832,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 282.886151 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Collector_Emission.png
-  artifactKey: Guid(6ee4c97f248a75c4ebdf71e3c1f44ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Collector_Emission.png using Guid(6ee4c97f248a75c4ebdf71e3c1f44ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47a0070875d088930276d34d6e25964') in 0.101444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_AlbedoTransparency_Red.png
-  artifactKey: Guid(523c5c249667d094eb3832ba10368a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_AlbedoTransparency_Red.png using Guid(523c5c249667d094eb3832ba10368a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0061aae7791c7bd46bf0ae82ac6c257') in 0.152508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_Albedo.png
-  artifactKey: Guid(01ea6771180414e4c986e5743f9ca874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_Albedo.png using Guid(01ea6771180414e4c986e5743f9ca874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8370a5856669d46b057532fa18e8878') in 0.056868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Guardian_Albedo.png
-  artifactKey: Guid(e6d959ba0720d1f47aadb6a43814dc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Guardian_Albedo.png using Guid(e6d959ba0720d1f47aadb6a43814dc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7a418b628ab8f6319bef8bf4585462') in 0.123331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_MetallicSmoothness_Red.png
-  artifactKey: Guid(e3f5afbfc4f64b74e95522fc78f95826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_MetallicSmoothness_Red.png using Guid(e3f5afbfc4f64b74e95522fc78f95826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddbd667a1bbeb2d211beeb9033ff644') in 0.157738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_AlbedoTransparency.png
-  artifactKey: Guid(06bf473f8b7f86d4186053ad1564b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_AlbedoTransparency.png using Guid(06bf473f8b7f86d4186053ad1564b02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265450063bfd2b12bb457fd9b01e1bb5') in 0.167619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Normal.png
-  artifactKey: Guid(6d7e3089212e9e541994f55739f6d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Normal.png using Guid(6d7e3089212e9e541994f55739f6d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578c0b45f5e4adadf16ce5485c8c9bac') in 0.158130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_08.wav
-  artifactKey: Guid(69445cce8a60f47a59a639a565185c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_08.wav using Guid(69445cce8a60f47a59a639a565185c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed58f1c83468c55d8216e345ab8a977') in 0.081847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_04.wav
-  artifactKey: Guid(f095ed7fb8ed84caa814c14d6ea51fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_04.wav using Guid(f095ed7fb8ed84caa814c14d6ea51fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797ed06868c9cebb167b1579d8958fc2') in 0.055730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Invader_Albedo.png
-  artifactKey: Guid(564a53723d00e9848bcc7fac3aa06445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Invader_Albedo.png using Guid(564a53723d00e9848bcc7fac3aa06445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e115b64a67232406b738e8382885da') in 0.084178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Guardian_Normal.png
-  artifactKey: Guid(7445ea0c76fcf17468fbe53faf4a5995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Guardian_Normal.png using Guid(7445ea0c76fcf17468fbe53faf4a5995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df640656844074d9f84ee361677254fe') in 0.132922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Collector_MetallicSmoothness.png
-  artifactKey: Guid(19bff7efce1eeb0428c0764fbe7360a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Collector_MetallicSmoothness.png using Guid(19bff7efce1eeb0428c0764fbe7360a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64068baef068d80154a8c61d40e3901') in 0.257934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_MetallicSmoothness.png
-  artifactKey: Guid(ffd31dba767e03f47973c60a22002600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_Rockie_Unity_Robot_Scout_Rockie_MetallicSmoothness.png using Guid(ffd31dba767e03f47973c60a22002600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3f4ea5ce00769abee4407462703bb5') in 0.611284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_MetallicSmoothness.png
-  artifactKey: Guid(bb64121f8d51781429ed733aaff4e7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_MetallicSmoothness.png using Guid(bb64121f8d51781429ed733aaff4e7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58953094fb40585a66825f4e38ee651') in 0.143711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Emission.png
-  artifactKey: Guid(9efff1d66cb970e4880e2080ed992db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Emission.png using Guid(9efff1d66cb970e4880e2080ed992db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d57cabd65e80e1f478360a3f247a840') in 0.159933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_AlbedoTransparency.png
-  artifactKey: Guid(9d309a93aad6ae64bada0c2df3f252b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Front_AlbedoTransparency.png using Guid(9d309a93aad6ae64bada0c2df3f252b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d4e0b53e6c6887c3edc2e3b75698c8') in 0.116698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_MetallicSmoothness.png
-  artifactKey: Guid(1194b0f1fd33edd4bb92b3b8c6be0bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_MetallicSmoothness.png using Guid(1194b0f1fd33edd4bb92b3b8c6be0bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfed4c1916e415c087b12ed94be48bdd') in 0.183417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Normal_Red.png
-  artifactKey: Guid(3c3bca16226bcbb42a763aeebd490cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Scout_HyperX_Low_Body_Back_Normal_Red.png using Guid(3c3bca16226bcbb42a763aeebd490cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f116b6dfa398a8c9258caf263280c5f') in 0.202769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sci_fi_Drones/Textures/Robot_Collector_Normal.png
-  artifactKey: Guid(708de8468a789b649b858c072eedb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci_fi_Drones/Textures/Robot_Collector_Normal.png using Guid(708de8468a789b649b858c072eedb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a1c87058c14cc8e7734aa639f515c4') in 0.064151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_09.wav
-  artifactKey: Guid(9cc99277f231e4adbbd91ff1821f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_09.wav using Guid(9cc99277f231e4adbbd91ff1821f526b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826e82a18eb84a5310925866f0b626ec') in 0.055522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_02.wav
-  artifactKey: Guid(363b4d1420d444b8c8d6955f7bd1fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_02.wav using Guid(363b4d1420d444b8c8d6955f7bd1fbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f402d85d4d0bca2d6c0095cb662514') in 0.046682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_10.wav
-  artifactKey: Guid(4f1ad1a2a4d33484db06895ac4295c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_10.wav using Guid(4f1ad1a2a4d33484db06895ac4295c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8942a2fc28636c3f70a2ea26987d91') in 0.032606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_06.wav
-  artifactKey: Guid(9afd6cc7134a3428cb7606e918101f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultra SF Game Audio Weapons Pack v.1/WPN_SCI-FI_FIRE_06.wav using Guid(9afd6cc7134a3428cb7606e918101f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a9214c4825c0fb54e00bd5b1be7b2f') in 0.056548 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007089 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\wanye\source\3D-User-Interfaces-for-VR\Project 1 - Jedi Training\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.01 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (104.6 KB). Loaded Objects now: 5027.
+Memory consumption went from 163.3 MB to 163.2 MB.
+Total: 4.122700 ms (FindLiveObjects: 0.603300 ms CreateObjectMapping: 0.137700 ms MarkObjects: 3.130300 ms  DeleteObjects: 0.250000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

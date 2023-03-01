@@ -819,9 +819,6 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.16f1\Editor\2021.3.18f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -834,6 +831,45 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
@@ -843,38 +879,17 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -882,57 +897,26 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus.Editor">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus">
-        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\Assignment 2 - Fruit Ninja 3D\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Oculus.Interaction.OVR.Samples.csproj">
-      <Project>{5dd2c893-5016-d039-a4f6-62b9bf6c4668}</Project>
-      <Name>Oculus.Interaction.OVR.Samples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{2f134eec-815c-bcd8-e58a-1125acf52487}</Project>
-      <Name>Oculus.VR.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Interaction.Samples.Editor.csproj">
-      <Project>{bb35411c-aca0-e5b7-f0bb-b04c93fbc9d8}</Project>
-      <Name>Oculus.Interaction.Samples.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
       <Project>{a4d65c6e-919a-d6d5-4eee-321ab8e9b318}</Project>
       <Name>Oculus.Platform.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Interaction.Editor.csproj">
-      <Project>{03fb321d-3ba7-6091-c3c9-b82ba1048f50}</Project>
-      <Name>Oculus.Interaction.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKEditor.csproj">
       <Project>{e814379e-aa14-3afe-0816-bb1b742c36e5}</Project>
@@ -946,10 +930,6 @@
       <Project>{41601c55-a6de-382c-b114-4442e518dcef}</Project>
       <Name>Oculus.AudioManager</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{adb47389-52a7-1be9-fde1-ca9e19f1f70c}</Project>
-      <Name>Oculus.VR.Scripts.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Meta.VoiceSDK.Mic.Common.csproj">
       <Project>{847aaacb-53ea-3633-8db1-d4bc3c5d9a7e}</Project>
       <Name>Meta.VoiceSDK.Mic.Common</Name>
@@ -962,25 +942,17 @@
       <Project>{ec406a1b-55ed-0801-601e-67c97d95bd8c}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.VoiceSDK.Mic.Other.csproj">
-      <Project>{181d512d-0491-9755-7bbf-251e19ee9193}</Project>
-      <Name>Meta.VoiceSDK.Mic.Other</Name>
+    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
+      <Project>{bc2ba51d-68db-79d7-e36a-4cbb5071d554}</Project>
+      <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.csproj">
       <Project>{92888e1c-e067-8c42-0262-be964d3a67d6}</Project>
       <Name>Meta.WitAi.Conduit</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.Spatializer.csproj">
-      <Project>{85350a29-5c82-5af1-381a-5f9a42b1df64}</Project>
-      <Name>Oculus.Spatializer</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.csproj">
       <Project>{de2b2e74-d7e2-23eb-d3f6-eb3f73c0442f}</Project>
       <Name>Oculus.Interaction.OVR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{bc2ba51d-68db-79d7-e36a-4cbb5071d554}</Project>
-      <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.csproj">
       <Project>{b6307ea5-7f1b-f1bf-ec4d-e29114b9b518}</Project>
@@ -990,6 +962,62 @@
       <Project>{0125eaac-e63c-fda4-fb14-4d10bc09c6c7}</Project>
       <Name>Facebook.Wit.Dictation.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Facebook.Wit.Dictation.csproj">
+      <Project>{c21687ce-70b2-39dc-640a-ee444c162028}</Project>
+      <Name>Facebook.Wit.Dictation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{4e9b5d78-5fe1-036a-298f-04bd3aea7841}</Project>
+      <Name>Oculus.VR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
+      <Project>{bd457615-84ef-d2f4-ed65-0b818ca6cf3c}</Project>
+      <Name>Oculus.AudioManager.Audio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meta.WitAI.Lib.Editor.csproj">
+      <Project>{06c5454d-b2d8-d93b-663f-936d112d3e90}</Project>
+      <Name>Meta.WitAI.Lib.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
+      <Project>{f2ff8f22-7d91-626a-bd47-0f74e37de27f}</Project>
+      <Name>Oculus.Spatializer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meta.WitAi.TTS.csproj">
+      <Project>{c9958e41-c16f-4a18-65cf-18e6148c58ed}</Project>
+      <Name>Meta.WitAi.TTS</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meta.WitAi.TTS.Editor.csproj">
+      <Project>{4a0862c2-168d-d2a3-936f-ad80ee11556f}</Project>
+      <Name>Meta.WitAi.TTS.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Interaction.OVR.Samples.csproj">
+      <Project>{5dd2c893-5016-d039-a4f6-62b9bf6c4668}</Project>
+      <Name>Oculus.Interaction.OVR.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Editor.csproj">
+      <Project>{2f134eec-815c-bcd8-e58a-1125acf52487}</Project>
+      <Name>Oculus.VR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Interaction.Samples.Editor.csproj">
+      <Project>{bb35411c-aca0-e5b7-f0bb-b04c93fbc9d8}</Project>
+      <Name>Oculus.Interaction.Samples.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Interaction.Editor.csproj">
+      <Project>{03fb321d-3ba7-6091-c3c9-b82ba1048f50}</Project>
+      <Name>Oculus.Interaction.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meta.VoiceSDK.Mic.Other.csproj">
+      <Project>{181d512d-0491-9755-7bbf-251e19ee9193}</Project>
+      <Name>Meta.VoiceSDK.Mic.Other</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
+      <Project>{adb47389-52a7-1be9-fde1-ca9e19f1f70c}</Project>
+      <Name>Oculus.VR.Scripts.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Spatializer.csproj">
+      <Project>{85350a29-5c82-5af1-381a-5f9a42b1df64}</Project>
+      <Name>Oculus.Spatializer</Name>
+    </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.Editor.csproj">
       <Project>{b4612ec0-cfcc-36db-db37-3fa1a359013b}</Project>
       <Name>Meta.WitAi.Conduit.Editor</Name>
@@ -997,10 +1025,6 @@
     <ProjectReference Include="VoiceSDK.Editor.csproj">
       <Project>{426f267d-acd3-85a4-3d9f-57363792f9f5}</Project>
       <Name>VoiceSDK.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Facebook.Wit.Dictation.csproj">
-      <Project>{c21687ce-70b2-39dc-640a-ee444c162028}</Project>
-      <Name>Facebook.Wit.Dictation</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.InterfaceSupport.csproj">
       <Project>{e35812aa-9c58-6efa-a60f-28bd4a7023d6}</Project>
@@ -1018,29 +1042,13 @@
       <Project>{b7e1ec6d-559a-7d8d-5f01-d971e1e98230}</Project>
       <Name>Oculus.Interaction.OVR.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{4e9b5d78-5fe1-036a-298f-04bd3aea7841}</Project>
-      <Name>Oculus.VR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{bd457615-84ef-d2f4-ed65-0b818ca6cf3c}</Project>
-      <Name>Oculus.AudioManager.Audio.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
       <Project>{74011f69-e581-f5ca-0c39-397cef78a23a}</Project>
       <Name>VoiceSDK.Dictation.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.WitAI.Lib.Editor.csproj">
-      <Project>{06c5454d-b2d8-d93b-663f-936d112d3e90}</Project>
-      <Name>Meta.WitAI.Lib.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
       <Project>{d28b4f93-3881-4d53-d71e-e711c6fb178e}</Project>
       <Name>VoiceSDK.Dictation.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{f2ff8f22-7d91-626a-bd47-0f74e37de27f}</Project>
-      <Name>Oculus.Spatializer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
       <Project>{9e2f2139-4ac4-5b30-f6e2-fb0d34edd896}</Project>
@@ -1058,17 +1066,9 @@
       <Project>{78a31466-7490-df76-da01-8c6b229ad51a}</Project>
       <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.WitAi.TTS.csproj">
-      <Project>{c9958e41-c16f-4a18-65cf-18e6148c58ed}</Project>
-      <Name>Meta.WitAi.TTS</Name>
-    </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Lib.csproj">
       <Project>{52e72ffc-a6d2-e331-c53a-39912aac31b7}</Project>
       <Name>Meta.WitAi.Lib</Name>
-    </ProjectReference>
-    <ProjectReference Include="Meta.WitAi.TTS.Editor.csproj">
-      <Project>{4a0862c2-168d-d2a3-936f-ad80ee11556f}</Project>
-      <Name>Meta.WitAi.TTS.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -193,7 +193,7 @@ CharacterController:
   m_GameObject: {fileID: 115939406}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
@@ -289,13 +289,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115939406}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fdd654fff8cea84ab4518a14a8454e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 115939417}
-  jetpackForce: 5
+  jetpackForce: 0.25
 --- !u!1 &124820003
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,7 +1007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7681372687013864541, guid: d93b7e04b48cd7b4fa849695dba2ce9c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.22
+      value: 2.22
       objectReference: {fileID: 0}
     - target: {fileID: 7681372687013864541, guid: d93b7e04b48cd7b4fa849695dba2ce9c, type: 3}
       propertyPath: m_LocalPosition.z

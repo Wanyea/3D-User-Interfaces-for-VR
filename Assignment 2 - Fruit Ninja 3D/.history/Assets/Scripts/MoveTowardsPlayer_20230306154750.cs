@@ -43,7 +43,7 @@ public class MoveTowardsPlayer : MonoBehaviour
         //     rb.velocity = new Vector3(moveDirection) * movementSpeed;
         // }
         
-        transform.LookAt(playerTransform.position);
+        transform.LookAt(player.transform);
 
         if (Vector3.Distance(transform.position, player.transform.position) <= maxDistance)
         {

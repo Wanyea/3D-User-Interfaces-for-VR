@@ -12,15 +12,17 @@ public class MoveTowardsPlayer : MonoBehaviour
     int minDistance = 5;
     Transform playerTransform;
 
+    GetTransform getTransform;
+
     void Awake() 
     {
         rb = GetComponent<Rigidbody>();
-        playerTransform = GameObject.FindWithTag("Player").transform;
+        getTransform = player.GetComponent<GetTransform>();
     }
     // Start is called before the first frame update
     void Start()
     {
-        playerTransform = GameObject.FindWithTag("Player").transform;
+        playerTransform = getTransform.GetPlayerTransform().position;
     }
 
     // Update is called once per frame
@@ -30,9 +32,9 @@ public class MoveTowardsPlayer : MonoBehaviour
         // float angle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
         // rb.rotation = angle;
         // moveDirection = direction;
-        playerTransform = GameObject.FindWithTag("Player").transform;
+                playerTransform = getTransform.GetPlayerTransform().position;
 
-        Debug.Log(playerTransform.position);
+                Debug.Log(getTransform.GetPlayerTransform().position);
 
     }
 
@@ -43,7 +45,7 @@ public class MoveTowardsPlayer : MonoBehaviour
         //     rb.velocity = new Vector3(moveDirection) * movementSpeed;
         // }
         
-        transform.LookAt(playerTransform.position);
+        transform.LookAt(player.transform);
 
         if (Vector3.Distance(transform.position, player.transform.position) <= maxDistance)
         {

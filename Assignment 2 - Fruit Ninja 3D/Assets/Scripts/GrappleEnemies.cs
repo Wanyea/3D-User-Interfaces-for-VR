@@ -32,9 +32,10 @@ public class GrappleEnemies : MonoBehaviour
             Debug.DrawRay(transform.position, transform.forward, Color.green);
             //Debug.Log(lastHit.name + " was hit!");
 
-            if (hit.transform.gameObject.tag == "Respawn") 
+            if (hit.transform.gameObject.tag == "Enemy") 
             {
                 Debug.Log("Tag is: " + lastHit.tag);
+                
             }
         } else {
             Debug.DrawRay(transform.position, transform.forward, Color.red);

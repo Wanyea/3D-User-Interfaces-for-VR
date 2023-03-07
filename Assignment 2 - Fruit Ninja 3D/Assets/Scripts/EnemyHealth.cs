@@ -13,7 +13,7 @@ public class EnemyHealth : MonoBehaviour
             enemyHealth -= 20.0f;
             Debug.Log(this.gameObject.name + "health is now " + enemyHealth);
 
-            if (enemyHealth == 0 ) 
+            if (enemyHealth <= 0 ) 
             {
                 Destroy(this.gameObject);
             }

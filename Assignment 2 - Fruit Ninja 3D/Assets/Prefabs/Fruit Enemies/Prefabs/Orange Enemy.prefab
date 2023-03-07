@@ -66,8 +66,6 @@ MonoBehaviour:
   orangeBulletPrefab: {fileID: 3663379563147062844, guid: 9822facf49b2faf4a9791154efa9fb13, type: 3}
   cooldown: 5
   enemyBulletSpeed: 1
-  playerHealth: 100
-  enemyHealth: 100
 --- !u!54 &16978163656242669
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -97,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5213192291786997930, guid: b7d3ce03aac990745a784362948bc81a, type: 3}
-  movementSpeed: 5
+  movementSpeed: 1
 --- !u!135 &4734470918218411501
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -123,6 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 399a761357456e54aa1f3ea689b95109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHealth: 100
 --- !u!1 &6237894005303681033
 GameObject:
   m_ObjectHideFlags: 0

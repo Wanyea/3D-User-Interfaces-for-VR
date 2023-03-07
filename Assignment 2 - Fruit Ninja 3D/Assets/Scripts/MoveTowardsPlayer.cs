@@ -17,6 +17,7 @@ public class MoveTowardsPlayer : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         playerTransform = GameObject.FindWithTag("Player").transform;
     }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,23 +27,12 @@ public class MoveTowardsPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Vector3 direction = (player.transform.position - transform.position).normalized;
-        // float angle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
-        // rb.rotation = angle;
-        // moveDirection = direction;
         playerTransform = GameObject.FindWithTag("Player").transform;
-
-        // Debug.Log(playerTransform.position);
-
     }
 
     void FixedUpdate() 
     {
-        // if (player) 
-        // {
-        //     rb.velocity = new Vector3(moveDirection) * movementSpeed;
-        // }
-        
+       
         transform.LookAt(playerTransform.position);
 
         if (Vector3.Distance(transform.position, player.transform.position) <= maxDistance)

@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5213192291786997930, guid: b7d3ce03aac990745a784362948bc81a, type: 3}
-  movementSpeed: 5
+  movementSpeed: 4.5
 --- !u!136 &8561846346502164372
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -107,6 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 399a761357456e54aa1f3ea689b95109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHealth: 20
 --- !u!1 &5122552614568453782
 GameObject:
   m_ObjectHideFlags: 0

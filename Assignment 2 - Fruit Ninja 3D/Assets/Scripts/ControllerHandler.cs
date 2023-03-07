@@ -6,12 +6,14 @@ public class ControllerHandler : MonoBehaviour
 {
     private OVRPlayerController controller;
     private float moveSpeedMultiplier = 3.0f;
+    private bool isCrouching;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<OVRPlayerController>();
         controller.SetMoveScaleMultiplier(moveSpeedMultiplier);
+        isCrouching = false;
     }
 
     // Update is called once per frame
@@ -50,6 +52,16 @@ public class ControllerHandler : MonoBehaviour
                     shuriken.SetActive(false);
                     sword.SetActive(true);
                 }
+            }
+        }
+
+        if (OVRInput.GetDown(OVRInput.Button.SecondaryThumbstick)) {
+            if (isCrouching) {
+                gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
+                isCrouching = false;
+            } else {
+                gameObject.transform.localScale = new Vector3(1f, 0.5f, 1f);
+                isCrouching = true;
             }
         }
     }

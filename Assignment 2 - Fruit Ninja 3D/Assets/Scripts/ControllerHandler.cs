@@ -4,24 +4,47 @@ using UnityEngine;
 
 public class ControllerHandler : MonoBehaviour
 {
-    public Rigidbody rb;
+    private CharacterController controller;
+    private Vector3 playerVelocity;
+    private bool groundedPlayer;
+    public float jetpackHeight;
+    private float gravityValue = -9.81f;
+    public float mass;
     
-    [SerializeField]
-    float jetpackForce;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        groundedPlayer = controller.isGrounded;
+        if (groundedPlayer && playerVelocity.y < 0)
+        {
+            playerVelocity.y = 0f;
+        }
+
+        // // Walking
+        // Vector2 rightControllerInput = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+        // Vector3 move = new Vector3(rightControllerInput.x, 0, rightControllerInput.y);
+        // controller.Move(move * Time.deltaTime * playerSpeed);
+
+        // if (move != Vector3.zero)
+        // {
+        //     Debug.Log("We're moving!");
+        //     gameObject.transform.forward = move;
+        // }
+
+        // Jetpack
         if (OVRInput.Get(OVRInput.Button.One, OVRInput.Controller.RTouch)) 
         {
             Debug.Log("A was pressed!");
-            rb.AddForce(0, jetpackForce, 0, ForceMode.Impulse);
-            // rb.velocity += new Vector3(0, jetpackForce, 0);
+            playerVelocity.y += Mathf.Sqrt(jetpackHeight * -mass * gravityValue);
         }
+
+        playerVelocity.y += gravityValue * Time.deltaTime;
+        controller.Move(playerVelocity * Time.deltaTime);
     }
 }

@@ -36,7 +36,7 @@ public class GrappleEnemies : MonoBehaviour
 
             if (hit.transform.gameObject.tag == "Enemy") 
             {
-                Debug.Log("Tag is: " + lastHit.tag);
+                // Debug.Log("Tag is: " + lastHit.tag);
                 Vector3 grappleDirection = (transform.position - hit.point);
                 hit.rigidbody.velocity = grappleDirection.normalized * grappleSpeed; 
             }

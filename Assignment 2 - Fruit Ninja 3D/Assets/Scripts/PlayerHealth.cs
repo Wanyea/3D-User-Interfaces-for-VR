@@ -20,33 +20,34 @@ public class PlayerHealth : MonoBehaviour
 
     void OnCollisionEnter(Collision collision) 
     {
-        if (collision.gameObject.name == "Orange Enemy") 
+        Debug.Log("COLLISION WITH: " + collision.gameObject.name);
+        if (collision.gameObject.name == "Orange Enemy(Clone)") 
         {
             playerHealth -= 20;
             Debug.Log("Player health is now: " + playerHealth);
         } 
 
-        if (collision.gameObject.name == "Papaya Enemy") 
+        if (collision.gameObject.name == "Papaya Enemy(Clone)") 
         {
             playerHealth -= 15;
             Debug.Log("Player health is now: " + playerHealth);
 
         }
 
-        if (collision.gameObject.name == "Strawberry Enemy") 
+        if (collision.gameObject.name == "Strawberry Enemy(Clone)") 
         {
             playerHealth -= 5;
             Debug.Log("Player health is now: " + playerHealth);
 
         }
 
-        if (collision.gameObject.name == "Dragon Fruit Enemy") 
+        if (collision.gameObject.name == "Dragon Fruit Enemy(Clone)") 
         {
             playerHealth -= 20;
             Debug.Log("Player health is now: " + playerHealth);
         }
 
-        if (collision.gameObject.name == "Pomegranate Enemy") 
+        if (collision.gameObject.name == "Pomegranate Enemy(Clone)") 
         {
             playerHealth -= 10;
             Debug.Log("Player health is now: " + playerHealth);

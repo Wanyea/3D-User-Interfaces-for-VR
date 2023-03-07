@@ -10,7 +10,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerWeapon") 
         {
-            enemyHealth -= 10.0f;
+            enemyHealth -= 20.0f;
             Debug.Log(this.gameObject.name + "health is now " + enemyHealth);
 
             if (enemyHealth == 0 ) 

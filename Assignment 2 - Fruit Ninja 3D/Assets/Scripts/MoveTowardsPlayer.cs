@@ -9,7 +9,7 @@ public class MoveTowardsPlayer : MonoBehaviour
     Vector3 moveDirection;
     private Rigidbody rb;
     int maxDistance = 101;
-    int minDistance = 5;
+    int minDistance = 0;
     Transform playerTransform;
 
     void Awake() 

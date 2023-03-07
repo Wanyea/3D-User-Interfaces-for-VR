@@ -539,8 +539,8 @@ public class OVRPlayerController : MonoBehaviour
 	/// </summary>
 	public bool Jump()
 	{
-		if (!Controller.isGrounded)
-			return false;
+		// if (!Controller.isGrounded)
+		// 	return false;
 
 		MoveThrottle += new Vector3(0, transform.lossyScale.y * JumpForce, 0);
 

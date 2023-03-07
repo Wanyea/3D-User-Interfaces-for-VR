@@ -32,8 +32,9 @@ public class OrangeFruitAttack : MonoBehaviour
         
         GameObject tempBullet = Instantiate(orangeBulletPrefab, gameObject.transform.position, Quaternion.identity) as GameObject; 
         Rigidbody tempRigidBodyBullet = tempBullet.GetComponent<Rigidbody>();
-        tempRigidBodyBullet.AddForce(tempRigidBodyBullet.transform.forward * enemyBulletSpeed);
+        tempRigidBodyBullet.AddForce((GameObject.FindWithTag("Player").transform.position - tempRigidBodyBullet.transform.position) * enemyBulletSpeed);
         Destroy(tempBullet, 5.0f);
 
     }
+    
 }

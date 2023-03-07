@@ -8,6 +8,7 @@ public class GrappleEnemies : MonoBehaviour
     public GameObject visualRay;
     public GameObject lastHit;
     public Vector3 collision = Vector3.zero;
+    public float grappleSpeed = 3.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +20,10 @@ public class GrappleEnemies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        collisionRay = new Ray(this.transform.position, this.transform.forward);    
-        CheckForColliders();
+        collisionRay = new Ray(this.transform.position, this.transform.forward);  
+
+        if (OVRInput.Get(OVRInput.RawButton.LIndexTrigger))  
+            CheckForColliders();
     }
 
     void CheckForColliders() 
@@ -30,12 +33,12 @@ public class GrappleEnemies : MonoBehaviour
             lastHit = hit.transform.gameObject;
             collision = hit.point;
             Debug.DrawRay(transform.position, transform.forward, Color.green);
-            //Debug.Log(lastHit.name + " was hit!");
 
             if (hit.transform.gameObject.tag == "Enemy") 
             {
                 Debug.Log("Tag is: " + lastHit.tag);
-                
+                Vector3 grappleDirection = (transform.position - hit.point);
+                hit.rigidbody.velocity = grappleDirection.normalized * grappleSpeed; 
             }
         } else {
             Debug.DrawRay(transform.position, transform.forward, Color.red);

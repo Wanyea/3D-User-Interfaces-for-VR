@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -9059896144442088486}
   - component: {fileID: 7744592841418307776}
   - component: {fileID: 8860938447047902653}
+  - component: {fileID: 9060558711210828585}
   m_Layer: 0
   m_Name: Pomegranate Enemy
   m_TagString: Enemy
@@ -143,3 +144,15 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.06992481
   m_Center: {x: 0, y: 0.06, z: 0}
+--- !u!114 &9060558711210828585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678595437819695524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399a761357456e54aa1f3ea689b95109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

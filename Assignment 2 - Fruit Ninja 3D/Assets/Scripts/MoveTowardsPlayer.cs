@@ -32,7 +32,7 @@ public class MoveTowardsPlayer : MonoBehaviour
         // moveDirection = direction;
         playerTransform = GameObject.FindWithTag("Player").transform;
 
-        Debug.Log(playerTransform.position);
+        // Debug.Log(playerTransform.position);
 
     }
 

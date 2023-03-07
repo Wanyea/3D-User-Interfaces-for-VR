@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 16978163656242669}
   - component: {fileID: 1495602069473192172}
   - component: {fileID: 4734470918218411501}
+  - component: {fileID: -1444523057560608109}
   m_Layer: 0
   m_Name: Orange Enemy
   m_TagString: Enemy
@@ -65,6 +66,8 @@ MonoBehaviour:
   orangeBulletPrefab: {fileID: 3663379563147062844, guid: 9822facf49b2faf4a9791154efa9fb13, type: 3}
   cooldown: 5
   enemyBulletSpeed: 1
+  playerHealth: 100
+  enemyHealth: 100
 --- !u!54 &16978163656242669
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -108,6 +111,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.045
   m_Center: {x: 0, y: 0.035, z: 0}
+--- !u!114 &-1444523057560608109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3106560617063471312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399a761357456e54aa1f3ea689b95109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6237894005303681033
 GameObject:
   m_ObjectHideFlags: 0

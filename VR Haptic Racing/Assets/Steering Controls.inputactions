@@ -1,0 +1,34 @@
+{
+    "name": "Steering Controls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "aee74976-f201-48b3-aef9-3a7142b2c2f5",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "602f40f8-3438-4950-83eb-5ddfe52050f2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b53b6139-9d4d-4eac-be7e-e4676991f8fe",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

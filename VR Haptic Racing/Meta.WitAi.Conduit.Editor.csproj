@@ -325,6 +325,9 @@
     <Reference Include="ReportGeneratorMerged">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\VR Haptic Racing\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
+    <Reference Include="XInputDotNetPure">
+        <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\VR Haptic Racing\Assets\XInputDotNet\Plugins\XInputDotNetPure.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>C:\Users\wanye\source\3D-User-Interfaces-for-VR\VR Haptic Racing\Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>

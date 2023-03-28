@@ -685,7 +685,7 @@ MonoBehaviour:
   brakeInput: 0
   steeringWheelObject: {fileID: 2124193623}
   speed: 5
-  rotationSpeed: 10
+  rotationSpeed: 11
   deceleration: 1
   steeringWheelRotationMultiplier: 140
 --- !u!4 &1601661755 stripped
@@ -774,6 +774,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7719136367040633031, guid: 3d2132cb3be524b43a003333e41db0e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719136367040633031, guid: 3d2132cb3be524b43a003333e41db0e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7719169327848864291, guid: 3d2132cb3be524b43a003333e41db0e2, type: 3}

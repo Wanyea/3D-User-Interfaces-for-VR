@@ -14,8 +14,6 @@ public class SteeringWheelController : MonoBehaviour
     private GamePadState state;
     private GamePadState prevState;
     private Rigidbody rb;
-    private Vector3 steeringWheelForward;
-    private Vector3 eulerRotation;
 
     public float speed = 5.0f;
     public float rotationSpeed = 23.0f;
@@ -27,8 +25,6 @@ public class SteeringWheelController : MonoBehaviour
     {
         playerIndex = PlayerIndex.One;
         rb = GetComponent<Rigidbody>();
-        steeringWheelForward = steeringWheelObject.transform.forward;
-        eulerRotation = steeringWheelObject.transform.rotation.eulerAngles;
 
     }
 
@@ -45,8 +41,10 @@ public class SteeringWheelController : MonoBehaviour
         if (steeringWheelObject != null) 
         {
             float rotationAngle = -steeringWheelInput * steeringWheelRotationMultiplier;
-            Quaternion rotation = Quaternion.AngleAxis(rotationAngle, steeringWheelForward);
-            steeringWheelObject.transform.rotation = transform.rotation * rotation;
+            Debug.DrawRay(steeringWheelObject.transform.position, steeringWheelObject.transform.forward, Color.red);
+            //Quaternion rotation = Quaternion.AngleAxis(rotationAngle, steeringWheelObject.transform.forward);
+            //steeringWheelObject.transform.rotation = rotation;
+
         }
 
     }

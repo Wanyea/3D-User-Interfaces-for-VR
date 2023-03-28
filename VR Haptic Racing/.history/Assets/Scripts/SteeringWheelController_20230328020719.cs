@@ -28,7 +28,6 @@ public class SteeringWheelController : MonoBehaviour
         playerIndex = PlayerIndex.One;
         rb = GetComponent<Rigidbody>();
         steeringWheelForward = steeringWheelObject.transform.forward;
-        eulerRotation = steeringWheelObject.transform.rotation.eulerAngles;
 
     }
 
@@ -45,8 +44,10 @@ public class SteeringWheelController : MonoBehaviour
         if (steeringWheelObject != null) 
         {
             float rotationAngle = -steeringWheelInput * steeringWheelRotationMultiplier;
+            Debug.DrawRay(steeringWheelObject.transform.position, steeringWheelObject.transform.forward, Color.red);
             Quaternion rotation = Quaternion.AngleAxis(rotationAngle, steeringWheelForward);
-            steeringWheelObject.transform.rotation = transform.rotation * rotation;
+            steeringWheelObject.transform.rotation = rotation;
+
         }
 
     }

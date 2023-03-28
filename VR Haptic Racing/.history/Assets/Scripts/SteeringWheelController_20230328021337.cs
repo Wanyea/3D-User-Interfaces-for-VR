@@ -47,6 +47,8 @@ public class SteeringWheelController : MonoBehaviour
             float rotationAngle = -steeringWheelInput * steeringWheelRotationMultiplier;
             Quaternion rotation = Quaternion.AngleAxis(rotationAngle, steeringWheelForward);
             steeringWheelObject.transform.rotation = transform.rotation * rotation;
+
+
         }
 
     }

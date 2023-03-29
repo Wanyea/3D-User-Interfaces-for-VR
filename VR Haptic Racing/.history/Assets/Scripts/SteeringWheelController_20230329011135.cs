@@ -20,8 +20,13 @@ public class SteeringWheelController : MonoBehaviour
     public float speed = 5.0f;
     public float rotationSpeed = 70.0f;
     public float deceleration = 1.0f; // Deceleration factor when not pressing triggers
-    public float steeringWheelRotationMultiplier = 140.0f;
+    //public float steeringWheelRotationMultiplier = 140.0f;
 
+    public float moveSpeed = 10f;
+    public float turnSpeed = 100f;
+    public float maxTurnAngle = 30f;
+    public float steeringWheelRotationMultiplier = 1f;
+    public float stopThreshold = 0.1f;
 
     void Start()
     {
@@ -65,9 +70,11 @@ public class SteeringWheelController : MonoBehaviour
             rb.velocity -= rb.velocity * deceleration * Time.deltaTime;
             
         } else { 
-            float rotation = steeringWheelInput * rotationSpeed * Time.deltaTime;
-            Quaternion turn = Quaternion.Euler(0f, rotation, 0f);
-            rb.MoveRotation(rb.rotation * turn);
+            float rotationAngle = -steeringWheelInput * steeringWheelRotationMultiplier;
+            Quaternion desiredRotation = Quaternion.Euler(0f, rotationAngle, 0f);
+            // steeringWheelObject.transform.rotation = transform.rotation * Quaternion.Euler(0f, 0f, rotationAngle);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRotation, turnSpeed * Time.deltaTime);
+        
         }
 
         rb.AddForce(movement * speed);

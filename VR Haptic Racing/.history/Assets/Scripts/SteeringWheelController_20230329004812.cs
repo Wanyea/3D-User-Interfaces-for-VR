@@ -56,7 +56,7 @@ public class SteeringWheelController : MonoBehaviour
 
         float moveVertical = acceleratorInput  - brakeInput; // Use pedals for acceleration/deacceleration (& reverse) movement
 
-        Vector3 movement = transform.forward * moveVertical;
+        Vector3 movement = Vector3.forward * moveVertical;
 
         if (moveVertical == 0f) 
         {

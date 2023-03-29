@@ -22,6 +22,11 @@ public class SteeringWheelController : MonoBehaviour
     public float deceleration = 1.0f; // Deceleration factor when not pressing triggers
     public float steeringWheelRotationMultiplier = 140.0f;
 
+    public float moveSpeed = 10f;
+    public float turnSpeed = 100f;
+    public float maxTurnAngle = 30f;
+    public float steeringWheelRotationMultiplier = 1f;
+    public float stopThreshold = 0.1f;
 
     void Start()
     {

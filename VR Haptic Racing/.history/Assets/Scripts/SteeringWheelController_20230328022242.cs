@@ -18,7 +18,7 @@ public class SteeringWheelController : MonoBehaviour
     private Vector3 eulerRotation;
 
     public float speed = 5.0f;
-    public float rotationSpeed = 70.0f;
+    public float rotationSpeed = 23.0f;
     public float deceleration = 1.0f; // Deceleration factor when not pressing triggers
     public float steeringWheelRotationMultiplier = 140.0f;
 

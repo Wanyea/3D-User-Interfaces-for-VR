@@ -685,9 +685,13 @@ MonoBehaviour:
   brakeInput: 0
   steeringWheelObject: {fileID: 2124193623}
   speed: 5
-  rotationSpeed: 11
+  rotationSpeed: 70
   deceleration: 1
+  moveSpeed: 10
+  turnSpeed: 100
+  maxTurnAngle: 30
   steeringWheelRotationMultiplier: 140
+  stopThreshold: 0.1
 --- !u!4 &1601661755 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7719100037035041883, guid: 3d2132cb3be524b43a003333e41db0e2, type: 3}
@@ -814,6 +818,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7769479102002473509, guid: 3d2132cb3be524b43a003333e41db0e2, type: 3}
       propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7769479102002473509, guid: 3d2132cb3be524b43a003333e41db0e2, type: 3}
+      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

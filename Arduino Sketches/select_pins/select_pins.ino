@@ -21,11 +21,14 @@ const int thirteen_pin = 13;
 void setup() 
 {
    setPinsMode();
+   Serial.begin(9600);
+
 }
 
 void loop() 
 {
-   
+   Serial.flush();
+   Serial.println();
 }
 
 void setPinsMode() 

@@ -7,7 +7,8 @@ void setup()
   Serial.begin(9600);
 }
 
-void loop() {
+void loop() 
+{
   ledState = recvSerial();
   delay(100);
   if (ledState == 1)
@@ -16,7 +17,8 @@ void loop() {
     digitalWrite(ledPin, LOW);
 }
 
-int recvSerial() {
+int recvSerial() 
+{
   if (Serial.available()) {
     int serialData = Serial.read();
     switch (serialData) {

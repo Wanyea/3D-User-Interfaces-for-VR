@@ -67,8 +67,6 @@ public class SteeringWheelController : MonoBehaviour
         rb.centerOfMass += centerOfMassOffset;
         steeringWheelForward = steeringWheelObject.transform.forward;
         eulerRotation = steeringWheelObject.transform.rotation.eulerAngles;
-        
-
 
     }
 
@@ -79,12 +77,11 @@ public class SteeringWheelController : MonoBehaviour
 
     void FixedUpdate() 
     {
-
         prevState = state;
         state = GamePad.GetState(playerIndex);
-        steeringWheelInput = state.ThumbSticks.Left.X;
-        acceleratorInput = state.Triggers.Right;
-        brakeInput = state.Triggers.Left;
+        steeringWheelInput = state.ThumbSticks.Left.X; // Get steering wheel input (-1 to 1)
+        acceleratorInput = state.Triggers.Right; // Get gas pedal input (0 to 1)
+        brakeInput = state.Triggers.Left; // Get brake pedal input (0 to 1)
 
         // Rotate steering wheel game object by similar rotation of 
         // the phsyical steering wheel input device  
@@ -95,8 +92,9 @@ public class SteeringWheelController : MonoBehaviour
             steeringWheelObject.transform.rotation = transform.rotation * rotation;
         }
 
-        float motor = maxMotorTorque * acceleratorInput; // Input.GetAxis("Vertical");
-        float steering = maxSteeringAngle * steeringWheelInput; // Input.GetAxis("Horizontal");
+        float motor = maxMotorTorque * acceleratorInput;
+        float brakeMotor = maxMotorTorque * brakeInput; 
+        float steering = maxSteeringAngle * steeringWheelInput; 
      
         foreach (AxleInfo axleInfo in axleInfos) 
         {
@@ -104,14 +102,17 @@ public class SteeringWheelController : MonoBehaviour
             {
                 axleInfo.leftWheelCollider.steerAngle = steering;
                 axleInfo.rightWheelCollider.steerAngle = steering;
-                Debug.Log(steering);
+                // Debug.Log(steering);
             }
 
             if (axleInfo.motor) 
             {
-                axleInfo.leftWheelCollider.motorTorque = motor; // ERROR: Value is always zero
-                axleInfo.rightWheelCollider.motorTorque = motor; // ERROR: Value is always zero
-                Debug.Log(motor);
+                axleInfo.leftWheelCollider.motorTorque = motor; 
+                axleInfo.rightWheelCollider.motorTorque = motor; 
+                axleInfo.leftWheelCollider.brakeTorque = brakeMotor;
+                axleInfo.rightWheelCollider.brakeTorque = brakeMotor;
+                // Debug.Log(motor);
+                // Debug.Log(brakeMotor);
             }
 
             ApplyLocalPositionToVisuals(axleInfo.leftWheelCollider);

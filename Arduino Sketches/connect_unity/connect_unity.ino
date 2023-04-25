@@ -1,5 +1,5 @@
 const int ledPin = 13;
-int ledState = 0;
+int ledState = -1;
 
 void setup() 
 {
@@ -10,7 +10,7 @@ void setup()
 void loop() 
 {
   ledState = recvSerial();
-  delay(100);
+  // delay(100);
   if (ledState == 1)
     digitalWrite(ledPin, HIGH);
   else
@@ -32,4 +32,9 @@ int recvSerial()
         return -1;
     }
   }
+}
+
+void activatePin() 
+{
+
 }

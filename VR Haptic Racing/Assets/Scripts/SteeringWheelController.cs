@@ -17,7 +17,6 @@ public class AxleInfo
 public class SteeringWheelController : MonoBehaviour
 {
     public List<AxleInfo> axleInfos; 
-
     public Vector3 centerOfMassOffset = new Vector3(0.5f, -0.5f, 0);
     public float maxMotorTorque = 400.0f;
     public float maxSteeringAngle = 30.0f;
@@ -38,8 +37,6 @@ public class SteeringWheelController : MonoBehaviour
     public float wheelsRotationMultiplier = 70.0f;
     public float wheelsRotationAngle;
 
-
-
     // finds the corresponding visual wheel
     // correctly applies the transform
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
@@ -59,7 +56,6 @@ public class SteeringWheelController : MonoBehaviour
         visualWheel.transform.rotation = rotation;
     }
 
-
     void Start()
     {
         playerIndex = PlayerIndex.One;
@@ -67,7 +63,7 @@ public class SteeringWheelController : MonoBehaviour
         rb.centerOfMass += centerOfMassOffset;
         steeringWheelForward = steeringWheelObject.transform.forward;
         eulerRotation = steeringWheelObject.transform.rotation.eulerAngles;
-
+        
     }
 
     void Update()
@@ -119,5 +115,4 @@ public class SteeringWheelController : MonoBehaviour
             ApplyLocalPositionToVisuals(axleInfo.rightWheelCollider);
         }
     }
-
 }

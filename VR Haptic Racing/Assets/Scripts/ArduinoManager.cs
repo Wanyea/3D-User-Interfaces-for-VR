@@ -29,214 +29,191 @@ public class ArduinoManager : MonoBehaviour
 
   void SetPinState() 
   {
-
-     // Set State For Pin 0
-     if (colliderPin == 1) 
+      // Set State For Pin 2
+      if (colliderPin == 1) 
       {
-        arduino.Write("1");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("A");
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 2);
         colliderPin = 0;
       } 
 
       if (colliderPin == -1) 
       {
-        arduino.Write("-1");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("a");
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 2);
         colliderPin = 0;
       }
 
-      // Set State For Pin 1
-     if (colliderPin == 2) 
+      // Set State For Pin 3
+      if (colliderPin == 2) 
       {
-        arduino.Write("2");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("B");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 3);
         colliderPin = 0;
       } 
 
       if (colliderPin == -2) 
       {
-        arduino.Write("-2");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("b");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 3);
         colliderPin = 0;
       }
 
-      // Set State For Pin 2
-     if (colliderPin == 3) 
+      // Set State For Pin 4
+      if (colliderPin == 3) 
       {
-        arduino.Write("3");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("C");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 4);
         colliderPin = 0;
       } 
 
       if (colliderPin == -3) 
       {
-        arduino.Write("-3");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("c");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 4);
         colliderPin = 0;
       }
 
-      // Set State For Pin 3
-     if (colliderPin == 4) 
+      // Set State For Pin 5
+      if (colliderPin == 4) 
       {
-        arduino.Write("4");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("D");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 5);
         colliderPin = 0;
       } 
 
       if (colliderPin == -4) 
       {
-        arduino.Write("-4");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("-d");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 5);
         colliderPin = 0;
       }
 
-      // Set State For Pin 4
-     if (colliderPin == 5) 
+      // Set State For Pin 6
+      if (colliderPin == 5) 
       {
-        arduino.Write("5");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("E");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 6);
         colliderPin = 0;
       } 
 
       if (colliderPin == -5) 
       {
-        arduino.Write("-5");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("e");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 6);
         colliderPin = 0;
       }
 
-      // Set State For Pin 5
-     if (colliderPin == 6) 
+      // Set State For Pin 7
+      if (colliderPin == 6) 
       {
-        arduino.Write("6");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("F");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 7);
         colliderPin = 0;
       } 
 
       if (colliderPin == -6) 
       {
-        arduino.Write("-6");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("f");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 7);
         colliderPin = 0;
       }
 
-      // Set State For Pin 6
-     if (colliderPin == 7) 
+      // Set State For Pin 8
+      if (colliderPin == 7) 
       {
-        arduino.Write("7");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("G");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 8);
         colliderPin = 0;
       } 
 
       if (colliderPin == -7) 
       {
-        arduino.Write("-7");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("g");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 8);
         colliderPin = 0;
       }
 
-      // Set State For Pin 7
-     if (colliderPin == 8) 
+      // Set State For Pin 9
+      if (colliderPin == 8) 
       {
-        arduino.Write("8");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("H");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 9);
         colliderPin = 0;
       } 
 
       if (colliderPin == -8) 
       {
-        arduino.Write("-8");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("h");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 9);
         colliderPin = 0;
       }
 
-      // Set State For Pin 8
-     if (colliderPin == 9) 
+      // Set State For Pin 10
+      if (colliderPin == 9) 
       {
-        arduino.Write("9");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("I");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 10);
         colliderPin = 0;
       } 
 
       if (colliderPin == -9) 
       {
-        arduino.Write("-9");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("i");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 10);
         colliderPin = 0;
       }
 
-      // Set State For Pin 9
-     if (colliderPin == 10) 
+      // Set State For Pin 11
+      if (colliderPin == 10) 
       {
-        arduino.Write("10");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("J");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 11);
         colliderPin = 0;
       } 
 
       if (colliderPin == -10) 
       {
-        arduino.Write("-10");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("j");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 11);
         colliderPin = 0;
       }
 
-      // Set State For Pin 10
-     if (colliderPin == 11) 
+      // Set State For Pin 12
+      if (colliderPin == 11) 
       {
-        arduino.Write("11");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("K");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 12);
         colliderPin = 0;
       } 
 
       if (colliderPin == -11) 
       {
-        arduino.Write("-11");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("k");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 12);
         colliderPin = 0;
       }
 
-      // Set State For Pin 11
-     if (colliderPin == 12) 
+      // Set State For Pin 13
+      if (colliderPin == 12) 
       {
-        arduino.Write("12");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("L");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 13);
         colliderPin = 0;
       } 
 
       if (colliderPin == -12) 
       {
-        arduino.Write("-12");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("l");
+        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 13);
         colliderPin = 0;
       }
 
-      // Set State For Pin 12
-     if (colliderPin == 13) 
+      // FOR RESETING ALL PINS (Turn all off)
+      if (colliderPin == 13) 
       {
-        arduino.Write("13");
-        Debug.Log("Collider Pin is: " + colliderPin);
-        colliderPin = 0;
-      } 
-
-      if (colliderPin == -13) 
-      {
-        arduino.Write("-13");
-        Debug.Log("Collider Pin is: " + colliderPin);
-        colliderPin = 0;
-      }
-
-      // Set State For Pin 13
-     if (colliderPin == 14) 
-      {
-        arduino.Write("14");
-        Debug.Log("Collider Pin is: " + colliderPin);
-        colliderPin = 0;
-      } 
-
-      if (colliderPin == -14) 
-      {
-        arduino.Write("-14");
-        Debug.Log("Collider Pin is: " + colliderPin);
+        arduino.Write("O");
+        Debug.Log("Turning all pins off...");
         colliderPin = 0;
       }
   }

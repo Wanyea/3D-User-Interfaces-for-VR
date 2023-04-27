@@ -23,75 +23,10 @@ public class SetPinState : MonoBehaviour
     {
         if (collider.tag == "Enemy Cars")
             arduinoManager.colliderPin = Int32.Parse(gameObject.name);
-
-        // if (gameObject.name == "1") 
-        // {
-        //     arduinoManager.colliderPin = 1;
-        // }
-
-        // if (gameObject.name == "2") 
-        // {
-        //     arduinoManager.colliderPin = 2;
-        // }
-
-        // if (gameObject.name == "3") 
-        // {
-        //     arduinoManager.colliderPin = 3;
-        // }
-
-        // if (gameObject.name == "4") 
-        // {
-        //     arduinoManager.colliderPin = 4;
-        // }
-
-        // if (gameObject.name == "5") 
-        // {
-        //     arduinoManager.colliderPin = 5;
-        // }
-
-        // if (gameObject.name == "6") 
-        // {
-        //     arduinoManager.colliderPin = 6;
-        // }
-
-        
-        // if (gameObject.name == "7") 
-        // {
-
-        // }
-
-        // if (gameObject.name == "8") 
-        // {
-
-        // }
-
-        // if (gameObject.name == "9") 
-        // {
-
-        // }
-
-        // if (gameObject.name == "10") 
-        // {
-
-        // }
-
-        // if (gameObject.name == "11") 
-        // {
-
-        // }
-
-        // if (gameObject.name == "12") 
-        // {
-
-        // }
     }
 
     private void OnTriggerExit(Collider collider) 
     {
-        // if (gameObject.name == "N - 1") 
-        // {
-        //     arduinoManager.colliderPin = 1;
-        // }
         if (collider.tag == "Enemy Cars")
             arduinoManager.colliderPin = -1 * Int32.Parse(gameObject.name);
     }

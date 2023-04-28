@@ -16,7 +16,7 @@ void setup()
   pinMode(12, OUTPUT);
   pinMode(13, OUTPUT);
 
-  Serial.begin(9600);
+  Serial.begin(115200, SERIAL_8N1);
 }
 
 void loop() 

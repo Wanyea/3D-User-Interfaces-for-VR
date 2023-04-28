@@ -7,12 +7,15 @@ public class ArduinoManager : MonoBehaviour
 {
   public string portName;
   public int colliderPin = 0;
+
   SerialPort arduino;
+
   void Start() 
   {
     try {
-      arduino = new SerialPort(portName, 9600);
+      arduino = new SerialPort(portName, 115200);
       arduino.Open();
+
       Debug.Log("Arduino port successfully opened!");
     } catch (Exception e) {
       Debug.Log("Unable to open Arduino port... Exception: " + e);
@@ -48,14 +51,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 2) 
       {
         arduino.Write("B");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 3);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 3);
         colliderPin = 0;
       } 
 
       if (colliderPin == -2) 
       {
         arduino.Write("b");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 3);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 3);
         colliderPin = 0;
       }
 
@@ -63,14 +66,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 3) 
       {
         arduino.Write("C");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 4);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 4);
         colliderPin = 0;
       } 
 
       if (colliderPin == -3) 
       {
         arduino.Write("c");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 4);
+        Debug.Log("The Collider is: " + colliderPin + " nd the corresponding pin is: " + 4);
         colliderPin = 0;
       }
 
@@ -78,14 +81,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 4) 
       {
         arduino.Write("D");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 5);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 5);
         colliderPin = 0;
       } 
 
       if (colliderPin == -4) 
       {
         arduino.Write("-d");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 5);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 5);
         colliderPin = 0;
       }
 
@@ -93,14 +96,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 5) 
       {
         arduino.Write("E");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 6);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 6);
         colliderPin = 0;
       } 
 
       if (colliderPin == -5) 
       {
         arduino.Write("e");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 6);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 6);
         colliderPin = 0;
       }
 
@@ -108,14 +111,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 6) 
       {
         arduino.Write("F");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 7);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 7);
         colliderPin = 0;
       } 
 
       if (colliderPin == -6) 
       {
         arduino.Write("f");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 7);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 7);
         colliderPin = 0;
       }
 
@@ -123,14 +126,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 7) 
       {
         arduino.Write("G");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 8);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 8);
         colliderPin = 0;
       } 
 
       if (colliderPin == -7) 
       {
         arduino.Write("g");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 8);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 8);
         colliderPin = 0;
       }
 
@@ -138,14 +141,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 8) 
       {
         arduino.Write("H");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 9);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 9);
         colliderPin = 0;
       } 
 
       if (colliderPin == -8) 
       {
         arduino.Write("h");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 9);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 9);
         colliderPin = 0;
       }
 
@@ -153,14 +156,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 9) 
       {
         arduino.Write("I");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 10);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 10);
         colliderPin = 0;
       } 
 
       if (colliderPin == -9) 
       {
         arduino.Write("i");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 10);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 10);
         colliderPin = 0;
       }
 
@@ -168,14 +171,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 10) 
       {
         arduino.Write("J");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 11);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 11);
         colliderPin = 0;
       } 
 
       if (colliderPin == -10) 
       {
         arduino.Write("j");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 11);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 11);
         colliderPin = 0;
       }
 
@@ -183,14 +186,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 11) 
       {
         arduino.Write("K");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 12);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 12);
         colliderPin = 0;
       } 
 
       if (colliderPin == -11) 
       {
         arduino.Write("k");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 12);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 12);
         colliderPin = 0;
       }
 
@@ -198,14 +201,14 @@ public class ArduinoManager : MonoBehaviour
       if (colliderPin == 12) 
       {
         arduino.Write("L");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 13);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 13);
         colliderPin = 0;
       } 
 
       if (colliderPin == -12) 
       {
         arduino.Write("l");
-        Debug.Log("The Collider is: " + colliderPin + "and the corresponding pin is: " + 13);
+        Debug.Log("The Collider is: " + colliderPin + " and the corresponding pin is: " + 13);
         colliderPin = 0;
       }
 

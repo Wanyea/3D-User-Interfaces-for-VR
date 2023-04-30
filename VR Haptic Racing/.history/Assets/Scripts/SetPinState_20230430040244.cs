@@ -7,6 +7,18 @@ public class SetPinState : MonoBehaviour
 {
     public ArduinoManager arduinoManager;
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
     private void OnTriggerEnter(Collider collider) 
     {
         if (collider.tag == "Enemy Cars") 
@@ -24,7 +36,8 @@ public class SetPinState : MonoBehaviour
         {
             arduinoManager.colliderPin = -1 * Int32.Parse(gameObject.name);
             arduinoManager.closestCar = null;
-        }   
+        }
+            
     }
 
 }

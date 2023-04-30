@@ -6,7 +6,7 @@ using System.IO.Ports;
 public class ArduinoManager : MonoBehaviour 
 {
   public string portName;
-  public int colliderPin = 5;
+  public int colliderPin = 13;
   public GameObject closestCar = null;
   [SerializeField] private float maxDistance = 10f;
 
@@ -26,13 +26,9 @@ public class ArduinoManager : MonoBehaviour
   
   void Update() 
   {
-    if (arduino.IsOpen) 
+    if (arduino.IsOpen && closestCar != null) 
     {
-        if (closestCar != null)
-          SetPinIntensity(calculateDistance(closerCar));
-
-        if (collision == 5)
-          // TURN ALL PINS OFF
+        SetPinIntensity(calculateDistance(closerCar));
     }
   }
 

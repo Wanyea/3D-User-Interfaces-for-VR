@@ -33,6 +33,7 @@ public class ArduinoManager : MonoBehaviour
 
         if (collision == 5)
           // TURN ALL PINS OFF
+
     }
   }
 

@@ -32,7 +32,7 @@ public class ArduinoManager : MonoBehaviour
           SetPinIntensity(calculateDistance(closerCar));
 
         if (collision == 5)
-          // TURN ALL PINS OFF
+
     }
   }
 

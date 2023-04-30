@@ -271,9 +271,46 @@ Side objects can be activated for road types. These side objects will be activat
 	      <p>If a handle appears to be undraggable, deselect and reselect it!</p>
 	      <p>&nbsp;</p>
 	      <p><strong>Customizing Roundabouts:</strong><span class="style21"><a name="customizingRoundabouts" id="addmarkers6"></a></span></p>
-	      <p>[to do: describe this process, the workflow is almost identical to customizing dynamic crossings]</p>
-	      <p>NOTE: It is recommended to set the Radius and Resolution first before adding connections. You can adjust both afterwads but it could be that connections cannot be created anymore because there is not enough space to fit the connections based on the current settings. This will be optimized further, for now focus on the handles displayed in the scene. These handles represent the selected connection position. Move all connections so the associated handles do not overlap. The roundabout will be rebuild as soon all connection positions do not overlap each other. Alternatively change the radius of connections or increase the radius and /or resolution.</p>
-	      <p>&nbsp;</p>
+	      <p><img src="../images/roundabout_inspector.jpg">
+	        
+          </p><ul>
+	      <li><span class="propertyStyle">Roundabout Width: </span> The width of the road section</li>
+	        <li><span class="propertyStyle">Radius:</span> The distance from the center to the middle of the road section</li>
+            <li><span class="propertyStyle">Resolution:</span> The geometry resolution of the roundabout</li>
+          <li><span class="propertyStyle">UV Tiling:</span> The tiling power</li>
+            <li><span class="propertyStyle">Flip Connection UVs:</span> Reverse the distribution from towards the roundabout to outwards</li>
+            <li><span class="propertyStyle">Connection Material:</span> The material assigned to connections</li>
+            <li><span class="propertyStyle">Inner Material:</span> The material assigned to the roundabout itself</li>
+            <li><span class="propertyStyle">Refresh Roundabout:</span> Rebuilds the roundabout</li>
+            <li><span class="propertyStyle">Distribute Connections Evenly:</span> This will set the connection positions evenly around the roundabout</li>
+            <li><span class="propertyStyle">Add Connection:</span> Adds a new connection if there isenough room </li>
+            <li><span class="propertyStyle">Select Road Type:</span> It is recommended to assign a road type to connections, the width and material will auto adjust</li>
+            <li><span class="propertyStyle">Road Width:</span> Set the width manually</li>
+            <li><span class="propertyStyle">Connection Material:</span> The material assigned to the connection section</li>
+            <li><span class="propertyStyle">Road Material:</span> The material used for new road objects extruded from this connection. This will be inherited from the road type when a road type is assigned</li>
+            <li><span class="propertyStyle">Position:</span> The position on the roundabout represented by the node index matching the resolution</li>
+          <li><span class="propertyStyle">Left Rounding Radius:</span> The corner radius on the left side of the connection</li>
+            <li><span class="propertyStyle">Right Rounding Radius:</span>The corner radius on the right side of the connection</li>
+            <li><span class="propertyStyle">Rounding Segments:</span> The resolution of the corners</li>
+            <li><span class="propertyStyle">Connection Length:</span> The distance of the connection</li>
+          <li><span class="propertyStyle">Delete Connection:</span> Removes the connection from the roundabout</li>
+           </ul> 
+            
+            
+	      <p>Below are the recommended steps to create a new roundabout prefab especially when working with larger road widths than the default width of 5</p>
+	      <ol>
+	        <li>Delete connections so only one connection remains</li>
+	        <li>Set the radius to a safe larger value, for example 20</li>
+	        <li>Depending on the width of connection 1, move the Position value further in CW direction so the connection will fit well to accomodate the below step 4.</li>
+	        <li>Select the road type for this connection and move the Position back to the lowest possible value (see the below NOTE with regard to the visible blue and red handles)</li>
+	        <li>Press &quot;Add Connection&quot;, select the road type for this connection and move the connection towards connection 1 to create space for the next connection</li>
+	        <li>Repeat step 5. note that the connections will be redistributed around the roundabout. When no connection is inserted, it means that the radius and current connection positions do not allow for a new connection to be added. In that case, either reposition connections and / or increase the radius</li>
+	        <li>Repeat these steps until all connections are added</li>
+	        <li>Optionally the radius can now be adjusted, there will be messages in the console when the radius has become too small</li>
+	        <li>Optionally at this point &ldquo;Distribute  Connections Evenly&rdquo; can be used to rearrange the connections around the roundabout	      </li>
+	      </ol>
+          
+	      <p>NOTE: The blue handles show the boundaries of the selected connection. The red handles show the available space between which the selected connection can be repositioned</p>
 	      <p>&nbsp;</p>
 	      <p><strong>CUSTOM CROSSING PREFABS <span class="style21">[Pro]</span><a name="customcrossings" id="customcrossings"></a></strong></p>
           <p>Custom connection prefabs are mesh based prefabs prepared to be used within the EasyRoads3D system. These can be your own unique models created in a modelling app. The system supports prefabs with child objects and submeshes. Currently all prefab mesh data will be read in.  </p>

@@ -6,7 +6,7 @@ using System.IO.Ports;
 public class ArduinoManager : MonoBehaviour 
 {
   public string portName;
-  public int colliderPin = 0;
+  public int colliderPin = 13;
 
   SerialPort arduino;
 

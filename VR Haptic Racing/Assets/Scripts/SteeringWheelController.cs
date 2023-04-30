@@ -15,9 +15,9 @@ public class AxleInfo
 public class SteeringWheelController : MonoBehaviour
 {
     public List<AxleInfo> axleInfos; 
-    public Vector3 centerOfMassOffset = new Vector3(0.65f, -0.5f, 0);
+    public Vector3 centerOfMassOffset = new Vector3(0, -0.5f, 0);
     public float maxMotorTorque = 400.0f;
-    public float maxSteeringAngle = 30.0f;
+    public float maxSteeringAngle = 50.0f;
     public float steeringWheelInput;
     public float acceleratorInput;
     public float brakeInput;
@@ -34,6 +34,8 @@ public class SteeringWheelController : MonoBehaviour
     public float steeringWheelRotationMultiplier = 140.0f;
     public float wheelsRotationMultiplier = 70.0f;
     public float wheelsRotationAngle;
+    public float maxSidewaysFriction = 2.0f;
+    public float maxForwardFriction = 1.5f;
 
     // finds the corresponding visual wheel
     // correctly applies the transform
@@ -61,14 +63,21 @@ public class SteeringWheelController : MonoBehaviour
         rb.centerOfMass += centerOfMassOffset;
         steeringWheelForward = steeringWheelObject.transform.forward;
         eulerRotation = steeringWheelObject.transform.rotation.eulerAngles;
-        
-    }
 
-    void Update()
-    {
-        
-    }
+        // Set up wheel collider properties for better handling
+        foreach (AxleInfo axleInfo in axleInfos) 
+        {
+            WheelFrictionCurve sidewaysFriction = axleInfo.leftWheelCollider.sidewaysFriction;
+            sidewaysFriction.stiffness = maxSidewaysFriction;
+            axleInfo.leftWheelCollider.sidewaysFriction = sidewaysFriction;
+            axleInfo.rightWheelCollider.sidewaysFriction = sidewaysFriction;
 
+            WheelFrictionCurve forwardFriction = axleInfo.leftWheelCollider.forwardFriction;
+            forwardFriction.stiffness = maxForwardFriction;
+            axleInfo.leftWheelCollider.forwardFriction = forwardFriction;
+            axleInfo.rightWheelCollider.forwardFriction = forwardFriction;
+        }
+    }
     void FixedUpdate() 
     {
         prevState = state;
@@ -78,7 +87,7 @@ public class SteeringWheelController : MonoBehaviour
         brakeInput = state.Triggers.Left; // Get brake pedal input (0 to 1)
 
         // Rotate steering wheel game object by similar rotation of 
-        // the phsyical steering wheel input device  
+        // the physical steering wheel input device  
         if (steeringWheelObject != null) 
         {
             float rotationAngle = -steeringWheelInput * steeringWheelRotationMultiplier;
@@ -89,28 +98,34 @@ public class SteeringWheelController : MonoBehaviour
         float motor = maxMotorTorque * acceleratorInput;
         float brakeMotor = maxMotorTorque * brakeInput; 
         float steering = maxSteeringAngle * steeringWheelInput; 
-     
+
         foreach (AxleInfo axleInfo in axleInfos) 
         {
             if (axleInfo.steering) 
             {
                 axleInfo.leftWheelCollider.steerAngle = steering;
                 axleInfo.rightWheelCollider.steerAngle = steering;
-                // Debug.Log(steering);
             }
 
             if (axleInfo.motor) 
             {
-                axleInfo.leftWheelCollider.motorTorque = motor; 
-                axleInfo.rightWheelCollider.motorTorque = motor; 
+                if (brakeInput > 0) {
+                    // Apply negative motor torque to reverse the car
+                    axleInfo.leftWheelCollider.motorTorque = -maxMotorTorque;
+                    axleInfo.rightWheelCollider.motorTorque = -maxMotorTorque;
+                } else {
+                    // Apply positive motor torque to move the car forward
+                    axleInfo.leftWheelCollider.motorTorque = motor; 
+                    axleInfo.rightWheelCollider.motorTorque = motor; 
+                }
+                
                 axleInfo.leftWheelCollider.brakeTorque = brakeMotor;
                 axleInfo.rightWheelCollider.brakeTorque = brakeMotor;
-                // Debug.Log(motor);
-                // Debug.Log(brakeMotor);
             }
 
             ApplyLocalPositionToVisuals(axleInfo.leftWheelCollider);
             ApplyLocalPositionToVisuals(axleInfo.rightWheelCollider);
         }
     }
+
 }

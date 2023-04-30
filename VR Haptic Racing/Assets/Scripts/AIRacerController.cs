@@ -12,24 +12,40 @@ public class AIRacerController : MonoBehaviour
     public float avoidMultiplier = 10f;
     public float raycastRange = 20f;
     public LayerMask layerMask;
-    public Vector3 centerOfMassOffset = new Vector3(0.5f, -0.5f, 0);
+    public Vector3 centerOfMassOffset = new Vector3(0, -0.5f, 0);
     private Rigidbody rb;
     private int currentWaypointIndex = 0;
     [SerializeField] private List<AxleInfo> axleInfos;
     [SerializeField] private List<Transform> waypoints = new List<Transform>();
+    public float maxSidewaysFriction = 2.0f;
+    public float maxForwardFriction = 1.5f;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.centerOfMass += centerOfMassOffset;
 
-        // TODO: Add waypoints
+        // Set up wheel collider properties for better handling
+        foreach (AxleInfo axleInfo in axleInfos) 
+        {
+            WheelFrictionCurve sidewaysFriction = axleInfo.leftWheelCollider.sidewaysFriction;
+            sidewaysFriction.stiffness = maxSidewaysFriction;
+            axleInfo.leftWheelCollider.sidewaysFriction = sidewaysFriction;
+            axleInfo.rightWheelCollider.sidewaysFriction = sidewaysFriction;
+
+            WheelFrictionCurve forwardFriction = axleInfo.leftWheelCollider.forwardFriction;
+            forwardFriction.stiffness = maxForwardFriction;
+            axleInfo.leftWheelCollider.forwardFriction = forwardFriction;
+            axleInfo.rightWheelCollider.forwardFriction = forwardFriction;
+        }
     }
 
     void FixedUpdate()
     {
 
-        Debug.Log(currentWaypointIndex);
+        // Debug.Log(currentWaypointIndex);
+
         // If there are no waypoints, do nothing
         if (waypoints.Count == 0)
         {
@@ -39,7 +55,12 @@ public class AIRacerController : MonoBehaviour
         // If we've reached the current waypoint, move to the next one
         if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 1f)
         {
-            currentWaypointIndex++; //(currentWaypointIndex + 1) % waypoints.Count;
+            if (currentWaypointIndex == waypoints.Count) 
+            {
+                currentWaypointIndex = 0;
+            } else {
+                currentWaypointIndex++; 
+            }
         }
 
         // Calculate the direction to the current waypoint

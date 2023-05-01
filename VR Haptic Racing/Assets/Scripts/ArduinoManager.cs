@@ -19,7 +19,7 @@ public class ArduinoManager : MonoBehaviour
   void Start() 
   {
     try {
-      arduino = new SerialPort(portName, 9600);
+      arduino = new SerialPort(portName, 4800);
       arduino.Open();
 
       Debug.Log("Arduino port successfully opened!");
@@ -32,7 +32,7 @@ public class ArduinoManager : MonoBehaviour
   {
     if (arduino.IsOpen) 
     {
-      SetPinState();    
+       SetPinState();    
     }
   }
 

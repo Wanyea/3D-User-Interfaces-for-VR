@@ -30,7 +30,7 @@ void setup()
   digitalWrite(12, LOW);
   digitalWrite(13, LOW);
 
-  Serial.begin(9600, SERIAL_8N1);
+  Serial.begin(4800, SERIAL_8N1);
 }
 
 void loop() 

@@ -81,3 +81,5 @@ crashlytics-build.properties
 *.csproj
 
 Temp/UnityLockfile
+
+VR Haptic Racing/Logs/

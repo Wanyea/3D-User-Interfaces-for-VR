@@ -7,28 +7,59 @@ public class SetPinState : MonoBehaviour
 {
     public ArduinoManager arduinoManager;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider collider) 
     {
-        if (collider.tag == "Enemy Cars")
-            arduinoManager.colliderPin = Int32.Parse(gameObject.name);
+        if (collider.tag == "Enemy Cars") 
+        {
+            switch (gameObject.name) 
+            {
+                case "Front Trigger":
+                    arduinoManager.signalPin = 1; // PWM Pin
+                        break;
+
+                case "Right Trigger":
+                    arduinoManager.signalPin = 2; // PWM Pin
+                        break;
+
+                case "Back Trigger":
+                    arduinoManager.signalPin = 3; // PWM Pin
+                        break;
+
+                case "Left Trigger":
+                    arduinoManager.signalPin = 4; // PWM Pin
+                        break;
+            }
+
+            if (arduinoManager.closestCar == null)
+                arduinoManager.closestCar = collider.gameObject;
+        }         
     }
 
     private void OnTriggerExit(Collider collider) 
     {
-        if (collider.tag == "Enemy Cars")
-            arduinoManager.colliderPin = -1 * Int32.Parse(gameObject.name);
+        if (collider.tag == "Enemy Cars") 
+        {
+            switch (gameObject.name)
+            {
+                case "Front Trigger":
+                    arduinoManager.signalPin = -1; // PWM Pin
+                    break;
+
+                case "Right Trigger":
+                    arduinoManager.signalPin = -2; // PWM Pin
+                    break;
+
+                case "Back Trigger":
+                    arduinoManager.signalPin = -3; // PWM Pin
+                    break;
+
+                case "Left Trigger":
+                    arduinoManager.signalPin = -4; // PWM Pin
+                    break;
+            }
+
+            arduinoManager.closestCar = null;
+        }   
     }
 
 }

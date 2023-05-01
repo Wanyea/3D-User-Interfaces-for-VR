@@ -30,7 +30,6 @@ public class SteeringWheelController : MonoBehaviour
     private Vector3 eulerRotation;
     public float speed = 5.0f;
     public float rotationSpeed = 70.0f;
-    public float deceleration = 1.0f; // Deceleration factor when not pressing acceleration pedal
     public float steeringWheelRotationMultiplier = 140.0f;
     public float wheelsRotationMultiplier = 70.0f;
     public float wheelsRotationAngle;
@@ -92,7 +91,7 @@ public class SteeringWheelController : MonoBehaviour
         {
             float rotationAngle = -steeringWheelInput * steeringWheelRotationMultiplier;
             Quaternion rotation = Quaternion.AngleAxis(rotationAngle, steeringWheelForward);
-            steeringWheelObject.transform.rotation = transform.rotation * rotation;
+            steeringWheelObject.transform.localEulerAngles = new Vector3(0, 0, rotationAngle);
         }
 
         float motor = maxMotorTorque * acceleratorInput;

@@ -1,4 +1,4 @@
-int ledState = 0;
+int pwnOutput = 0;
 
 void setup() 
 {
@@ -34,95 +34,119 @@ void setup()
 
 void loop() 
 {
-  ledState = recvSerial();
-  Serial.println(ledState);
+
+  // Serial.println("Hello world");
+  if (Serial.available() >= 2) 
+  {
+    Serial.println("Hello world");
+    byte ledPin = Serial.read();
+    byte ledState = Serial.read();
+    byte pwnValue = Serial.read();
+
+    Serial.print("ledPin: ");
+    Serial.print(ledPin);
+    Serial.print(", ledState: ");
+    Serial.print(ledState);
+    Serial.print(", pwnValue: ");
+    // Serial.println(pwnValue);
+
+    if (ledState == 3) // Motors 11, 12, 1
+    {
+        pwnOutput = map(pwnValue, 0, 255, 0, 255);
+        analogWrite(ledPin, pwnOutput);
+    } 
+    
+  }
+
+  // ledState = recvSerial();
+  // Serial.println(ledState);
   
-  if (ledState == 1) 
-  {
-      digitalWrite(2, HIGH);
-  } else if (ledState == -1) {
-      digitalWrite(2, LOW);
-  }
+  // if (ledState == 1) 
+  // {
+  //     digitalWrite(2, HIGH);
+  // } else if (ledState == -1) {
+  //     digitalWrite(2, LOW);
+  // }
 
-  if (ledState == 2) 
-  {
-      digitalWrite(3, HIGH);
-  } else if (ledState == -2) {
-      digitalWrite(3, LOW);
-  }
+  // if (ledState == 2) 
+  // {
+  //     digitalWrite(3, HIGH);
+  // } else if (ledState == -2) {
+  //     digitalWrite(3, LOW);
+  // }
 
-  if (ledState == 3) 
-  {
-      digitalWrite(4, HIGH);
-  } else if (ledState == -3) {
-      digitalWrite(4, LOW);
-  }
+  // if (ledState == 3) 
+  // {
+  //     digitalWrite(4, HIGH);
+  // } else if (ledState == -3) {
+  //     digitalWrite(4, LOW);
+  // }
 
-  if (ledState == 4) 
-  {
-      digitalWrite(5, HIGH);
-  } else if (ledState == -4) {
-      digitalWrite(5, LOW);
-  }
+  // if (ledState == 4) 
+  // {
+  //     digitalWrite(5, HIGH);
+  // } else if (ledState == -4) {
+  //     digitalWrite(5, LOW);
+  // }
 
-  if (ledState == 5) 
-  {
-      digitalWrite(6, HIGH);
-  } else if (ledState == -5) {
-      digitalWrite(6, LOW);
-  }
+  // if (ledState == 5) 
+  // {
+  //     digitalWrite(6, HIGH);
+  // } else if (ledState == -5) {
+  //     digitalWrite(6, LOW);
+  // }
 
-  if (ledState == 6) 
-  {
-      digitalWrite(7, HIGH);
-  } else if (ledState == -6) {
-      digitalWrite(7, LOW);
-  }
+  // if (ledState == 6) 
+  // {
+  //     digitalWrite(7, HIGH);
+  // } else if (ledState == -6) {
+  //     digitalWrite(7, LOW);
+  // }
 
-  if (ledState == 7) 
-  {
-      digitalWrite(8, HIGH);
-  } else if (ledState == -7) {
-      digitalWrite(8, LOW);
-  }
+  // if (ledState == 7) 
+  // {
+  //     digitalWrite(8, HIGH);
+  // } else if (ledState == -7) {
+  //     digitalWrite(8, LOW);
+  // }
 
-  if (ledState == 8) 
-  {
-      digitalWrite(9, HIGH);
-  } else if (ledState == -8) {
-      digitalWrite(9, LOW);
-  }
+  // if (ledState == 8) 
+  // {
+  //     digitalWrite(9, HIGH);
+  // } else if (ledState == -8) {
+  //     digitalWrite(9, LOW);
+  // }
 
-  if (ledState == 9) 
-  {
-      digitalWrite(10, HIGH);
-  } else if (ledState == -9) {
-      digitalWrite(10, LOW);
-  }
+  // if (ledState == 9) 
+  // {
+  //     digitalWrite(10, HIGH);
+  // } else if (ledState == -9) {
+  //     digitalWrite(10, LOW);
+  // }
 
-  if (ledState == 10) 
-  {
-      digitalWrite(11, HIGH);
-  } else if (ledState == -10) {
-      digitalWrite(11, LOW);
-  }
+  // if (ledState == 10) 
+  // {
+  //     digitalWrite(11, HIGH);
+  // } else if (ledState == -10) {
+  //     digitalWrite(11, LOW);
+  // }
 
-  if (ledState == 11) 
-  {
-      digitalWrite(12, HIGH);
-  } else if (ledState == -11) {
-      digitalWrite(12, LOW);
-  }
+  // if (ledState == 11) 
+  // {
+  //     digitalWrite(12, HIGH);
+  // } else if (ledState == -11) {
+  //     digitalWrite(12, LOW);
+  // }
 
-  if (ledState == 12) 
-  {
-      digitalWrite(13, HIGH);
-  } else if (ledState == -12) {
-      digitalWrite(13, LOW);
-  }
+  // if (ledState == 12) 
+  // {
+  //     digitalWrite(13, HIGH);
+  // } else if (ledState == -12) {
+  //     digitalWrite(13, LOW);
+  // }
 
-  if (ledState == 15)
-    resetPins();
+  // if (ledState == 15)
+  //   resetPins();
 }
 
 int recvSerial() 
@@ -225,128 +249,120 @@ int recvSerial()
 
 void setPinState() 
 {
-  if (ledState == 1) 
-  {
-      digitalWrite(0, HIGH);
-  } else if (ledState == -1) {
-      digitalWrite(0, LOW);
-  }
+  // if (ledState == 1) 
+  // {
+  //     digitalWrite(0, HIGH);
+  // } else if (ledState == -1) {
+  //     digitalWrite(0, LOW);
+  // }
 
-  if (ledState == 2) 
-  {
-      digitalWrite(1, HIGH);
-  } else if (ledState == -2) {
-      digitalWrite(1, LOW);
-  }
+  // if (ledState == 2) 
+  // {
+  //     digitalWrite(1, HIGH);
+  // } else if (ledState == -2) {
+  //     digitalWrite(1, LOW);
+  // }
 
-  if (ledState == 3) 
-  {
-      digitalWrite(2, HIGH);
-  } else if (ledState == -3) {
-      digitalWrite(2, LOW);
-  }
+  // if (ledState == 3) 
+  // {
+  //     digitalWrite(2, HIGH);
+  // } else if (ledState == -3) {
+  //     digitalWrite(2, LOW);
+  // }
 
-  if (ledState == 4) 
-  {
-      digitalWrite(3, HIGH);
-  } else if (ledState == -4) {
-      digitalWrite(3, LOW);
-  }
+  // if (ledState == 4) 
+  // {
+  //     digitalWrite(3, HIGH);
+  // } else if (ledState == -4) {
+  //     digitalWrite(3, LOW);
+  // }
 
-  if (ledState == 5) 
-  {
-      digitalWrite(4, HIGH);
-  } else if (ledState == -5) {
-      digitalWrite(4, LOW);
-  }
+  // if (ledState == 5) 
+  // {
+  //     digitalWrite(4, HIGH);
+  // } else if (ledState == -5) {
+  //     digitalWrite(4, LOW);
+  // }
 
-  if (ledState == 6) 
-  {
-      digitalWrite(5, HIGH);
-  } else if (ledState == -6) {
-      digitalWrite(5, LOW);
-  }
+  // if (ledState == 6) 
+  // {
+  //     digitalWrite(5, HIGH);
+  // } else if (ledState == -6) {
+  //     digitalWrite(5, LOW);
+  // }
 
-  if (ledState == 7) 
-  {
-      digitalWrite(6, HIGH);
-  } else if (ledState == -7) {
-      digitalWrite(6, LOW);
-  }
+  // if (ledState == 7) 
+  // {
+  //     digitalWrite(6, HIGH);
+  // } else if (ledState == -7) {
+  //     digitalWrite(6, LOW);
+  // }
 
-  if (ledState == 8) 
-  {
-      digitalWrite(7, HIGH);
-  } else if (ledState == -8) {
-      digitalWrite(7, LOW);
-  }
+  // if (ledState == 8) 
+  // {
+  //     digitalWrite(7, HIGH);
+  // } else if (ledState == -8) {
+  //     digitalWrite(7, LOW);
+  // }
 
-  if (ledState == 9) 
-  {
-      digitalWrite(8, HIGH);
-  } else if (ledState == -9) {
-      digitalWrite(8, LOW);
-  }
+  // if (ledState == 9) 
+  // {
+  //     digitalWrite(8, HIGH);
+  // } else if (ledState == -9) {
+  //     digitalWrite(8, LOW);
+  // }
 
-  if (ledState == 10) 
-  {
-      digitalWrite(9, HIGH);
-  } else if (ledState == -10) {
-      digitalWrite(9, LOW);
-  }
+  // if (ledState == 10) 
+  // {
+  //     digitalWrite(9, HIGH);
+  // } else if (ledState == -10) {
+  //     digitalWrite(9, LOW);
+  // }
 
-  if (ledState == 11) 
-  {
-      digitalWrite(10, HIGH);
-  } else if (ledState == -11) {
-      digitalWrite(10, LOW);
-  }
+  // if (ledState == 11) 
+  // {
+  //     digitalWrite(10, HIGH);
+  // } else if (ledState == -11) {
+  //     digitalWrite(10, LOW);
+  // }
 
-  if (ledState == 12) 
-  {
-      digitalWrite(11, HIGH);
-  } else if (ledState == -12) {
-      digitalWrite(11, LOW);
-  }
+  // if (ledState == 12) 
+  // {
+  //     digitalWrite(11, HIGH);
+  // } else if (ledState == -12) {
+  //     digitalWrite(11, LOW);
+  // }
 
-  if (ledState == 13) 
-  {
-      digitalWrite(12, HIGH);
-  } else if (ledState == -13) {
-      digitalWrite(12, LOW);
-  }
+  // if (ledState == 13) 
+  // {
+  //     digitalWrite(12, HIGH);
+  // } else if (ledState == -13) {
+  //     digitalWrite(12, LOW);
+  // }
 
-  if (ledState == 14) 
-  {
-      digitalWrite(13, HIGH);
-  } else if (ledState == -14) {
-      digitalWrite(13, LOW);
-  } 
-}
-
-void setupPins() 
-{
-  for (int i = 0; i <= 13; i++) 
-  {
-    pinMode(i, OUTPUT);
-  }
+  // if (ledState == 14) 
+  // {
+  //     digitalWrite(13, HIGH);
+  // } else if (ledState == -14) {
+  //     digitalWrite(13, LOW);
+  // } 
 }
 
 void resetPins() 
 {
-    if (ledState == 15) 
-    { 
-      digitalWrite(2, LOW);
-      digitalWrite(3, LOW);
-      digitalWrite(4, LOW);
-      digitalWrite(5, LOW);
-      digitalWrite(6, LOW);
-      digitalWrite(7, LOW);
-      digitalWrite(8, LOW);
-      digitalWrite(9, LOW);
-      digitalWrite(10, LOW);
-      digitalWrite(11, LOW);
-      digitalWrite(12, LOW);
-      digitalWrite(13, LOW);
-    }
+    // if (ledState == 15) 
+    // { 
+    //   digitalWrite(2, LOW);
+    //   digitalWrite(3, LOW);
+    //   digitalWrite(4, LOW);
+    //   digitalWrite(5, LOW);
+    //   digitalWrite(6, LOW);
+    //   digitalWrite(7, LOW);
+    //   digitalWrite(8, LOW);
+    //   digitalWrite(9, LOW);
+    //   digitalWrite(10, LOW);
+    //   digitalWrite(11, LOW);
+    //   digitalWrite(12, LOW);
+    //   digitalWrite(13, LOW);
+    // }
 }

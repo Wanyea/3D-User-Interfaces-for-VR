@@ -11,7 +11,28 @@ public class SetPinState : MonoBehaviour
     {
         if (collider.tag == "Enemy Cars") 
         {
-            arduinoManager.colliderPin = Int32.Parse(gameObject.name);
+            switch (gameObject.name) 
+            {
+                case "Front Trigger":
+                    arduinoManager.signalPin = 3; // PWM Pin
+                    arduinoManager.ledState = 1; // Turn pin on 
+                        break;
+
+                case "Right Collider":
+                    arduinoManager.signalPin = 5; // PWM Pin
+                    arduinoManager.ledState = 1; // Turn pin on 
+                        break;
+
+                case "Back Collider":
+                    arduinoManager.signalPin = 6; // PWM Pin
+                    arduinoManager.ledState = 1; // Turn pin on 
+                        break;
+
+                case "Left Collider":
+                    arduinoManager.signalPin = 9; // PWM Pin
+                    arduinoManager.ledState = 1; // Turn pin on 
+                        break;
+            }
 
             if (arduinoManager.closestCar == null)
                 arduinoManager.closestCar = collider.gameObject;
@@ -22,7 +43,29 @@ public class SetPinState : MonoBehaviour
     {
         if (collider.tag == "Enemy Cars") 
         {
-            arduinoManager.colliderPin = -1 * Int32.Parse(gameObject.name);
+            switch (gameObject.name) 
+            {
+                case "Front Trigger":
+                    arduinoManager.signalPin = 3; // PWM Pin
+                    arduinoManager.ledState = -1; // Turn pin off 
+                        break;
+
+                case "Right Collider":
+                    arduinoManager.signalPin = 5; // PWM Pin
+                    arduinoManager.ledState = -1; // Turn pin off 
+                        break;
+
+                case "Back Collider":
+                    arduinoManager.signalPin = 6; // PWM Pin
+                    arduinoManager.ledState = -1; // Turn pin off 
+                        break;
+
+                case "Left Collider":
+                    arduinoManager.signalPin = 9; // PWM Pin
+                    arduinoManager.ledState = -1; // Turn pin off 
+                        break;
+            }
+
             arduinoManager.closestCar = null;
         }   
     }

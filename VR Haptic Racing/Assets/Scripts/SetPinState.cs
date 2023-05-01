@@ -14,23 +14,19 @@ public class SetPinState : MonoBehaviour
             switch (gameObject.name) 
             {
                 case "Front Trigger":
+                    arduinoManager.signalPin = 1; // PWM Pin
+                        break;
+
+                case "Right Trigger":
+                    arduinoManager.signalPin = 2; // PWM Pin
+                        break;
+
+                case "Back Trigger":
                     arduinoManager.signalPin = 3; // PWM Pin
-                    arduinoManager.ledState = 1; // Turn pin on 
                         break;
 
-                case "Right Collider":
-                    arduinoManager.signalPin = 5; // PWM Pin
-                    arduinoManager.ledState = 1; // Turn pin on 
-                        break;
-
-                case "Back Collider":
-                    arduinoManager.signalPin = 6; // PWM Pin
-                    arduinoManager.ledState = 1; // Turn pin on 
-                        break;
-
-                case "Left Collider":
-                    arduinoManager.signalPin = 9; // PWM Pin
-                    arduinoManager.ledState = 1; // Turn pin on 
+                case "Left Trigger":
+                    arduinoManager.signalPin = 4; // PWM Pin
                         break;
             }
 
@@ -43,27 +39,23 @@ public class SetPinState : MonoBehaviour
     {
         if (collider.tag == "Enemy Cars") 
         {
-            switch (gameObject.name) 
+            switch (gameObject.name)
             {
                 case "Front Trigger":
-                    arduinoManager.signalPin = 3; // PWM Pin
-                    arduinoManager.ledState = -1; // Turn pin off 
-                        break;
+                    arduinoManager.signalPin = -1; // PWM Pin
+                    break;
 
-                case "Right Collider":
-                    arduinoManager.signalPin = 5; // PWM Pin
-                    arduinoManager.ledState = -1; // Turn pin off 
-                        break;
+                case "Right Trigger":
+                    arduinoManager.signalPin = -2; // PWM Pin
+                    break;
 
-                case "Back Collider":
-                    arduinoManager.signalPin = 6; // PWM Pin
-                    arduinoManager.ledState = -1; // Turn pin off 
-                        break;
+                case "Back Trigger":
+                    arduinoManager.signalPin = -3; // PWM Pin
+                    break;
 
-                case "Left Collider":
-                    arduinoManager.signalPin = 9; // PWM Pin
-                    arduinoManager.ledState = -1; // Turn pin off 
-                        break;
+                case "Left Trigger":
+                    arduinoManager.signalPin = -4; // PWM Pin
+                    break;
             }
 
             arduinoManager.closestCar = null;

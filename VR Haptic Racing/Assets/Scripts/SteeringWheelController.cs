@@ -16,7 +16,7 @@ public class SteeringWheelController : MonoBehaviour
 {
     public List<AxleInfo> axleInfos; 
     public Vector3 centerOfMassOffset = new Vector3(0, -0.5f, 0);
-    public float maxMotorTorque = 400.0f;
+    public float maxMotorTorque = 2000.0f;
     public float maxSteeringAngle = 50.0f;
     public float steeringWheelInput;
     public float acceleratorInput;
@@ -28,7 +28,7 @@ public class SteeringWheelController : MonoBehaviour
     private Rigidbody rb;
     private Vector3 steeringWheelForward;
     private Vector3 eulerRotation;
-    public float speed = 5.0f;
+    public float speed = 100.0f;
     public float rotationSpeed = 70.0f;
     public float steeringWheelRotationMultiplier = 140.0f;
     public float wheelsRotationMultiplier = 70.0f;
@@ -77,6 +77,7 @@ public class SteeringWheelController : MonoBehaviour
             axleInfo.rightWheelCollider.forwardFriction = forwardFriction;
         }
     }
+
     void FixedUpdate() 
     {
         prevState = state;
@@ -117,14 +118,10 @@ public class SteeringWheelController : MonoBehaviour
                     axleInfo.leftWheelCollider.motorTorque = motor; 
                     axleInfo.rightWheelCollider.motorTorque = motor; 
                 }
-                
-                axleInfo.leftWheelCollider.brakeTorque = brakeMotor;
-                axleInfo.rightWheelCollider.brakeTorque = brakeMotor;
             }
 
             ApplyLocalPositionToVisuals(axleInfo.leftWheelCollider);
             ApplyLocalPositionToVisuals(axleInfo.rightWheelCollider);
         }
     }
-
 }

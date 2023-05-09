@@ -10,7 +10,7 @@ To migigate this, I created a haptic steering wheel that aims to inform users of
 
 In future work I plan to extrapolate this concept to more interactive experiences that give users feedback in ways that aren't traditionally possible with just a head mounted display alone. Additionally, I plan to test other mediums to apply psuedo-haptic techniques on in order to create more immersive experiences. 
 
-### Short Demo Video: ![](https://youtu.be/22XhuikKvQU)
+### Short Demo Video: https://youtu.be/22XhuikKvQU
 
 | <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8116.jpg" width="320" height="400"> |
 | <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8136.jpg" width="320" height="400"> |

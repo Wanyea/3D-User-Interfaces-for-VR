@@ -12,13 +12,13 @@ In future work I plan to extrapolate this concept to more interactive experience
 
 ### Short Demo Video: https://youtu.be/22XhuikKvQU
 
-| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8116.jpg" width="320" height="400"> |
-| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8136.jpg" width="320" height="400"> |
-<img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8178.jpg" width="300" height="400"> |
+| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8116.jpg" width="320" height="400"> 
+| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8136.jpg" width="320" height="400"> 
+<img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8178.jpg" width="300" height="400"> 
 
-| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8179.jpg" width="300" height="400"> |
-| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8180.jpg" width="300" height="400"> |
-| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8181.jpg" width="300" height="400"> |
+| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8179.jpg" width="300" height="400"> 
+| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8180.jpg" width="300" height="400"> 
+| <img src="https://github.com/Wanyea/3D-User-Interfaces-for-VR/blob/edo/readme-assets/IMG_8181.jpg" width="300" height="400"> 
 
 
 
